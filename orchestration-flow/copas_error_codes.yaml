@@ -1,0 +1,82 @@
+# ═══════════════════════════════════════════════════════════════════════════════
+#  COPAS Error Code registry — the auditor's controlled vocabulary.
+#  Source: "COPAS Error coding.xlsx" (lead-provided, exhaustive 70-code list).
+#  This is the DETERMINISTIC classifier key: every audit exception carries one of
+#  these codes (field `error_type`), so category is looked up, not inferred.
+#
+#  Per code:
+#    category  — coarse grouping for triage/heatmaps
+#    family    — the domain sub-area (drives which rules/agents are relevant)
+#    tier_hint — automation difficulty prior (1=low-hanging, 2=multi-agent+HITL, 3=hard)
+#                (a PRIOR only; final tier still set by the scorer using $ + evidence)
+# ═══════════════════════════════════════════════════════════════════════════════
+codes:
+  "01.0": {label: "Coding Error",                          category: "Coding/Accounting", family: "coding_error",        tier_hint: 1}
+  "01.1": {label: "Coding or Distribution Errors",         category: "Coding/Accounting", family: "coding_error",        tier_hint: 1}
+  "01.2": {label: "Discounts",                             category: "Coding/Accounting", family: "discounts",           tier_hint: 1}
+  "02.0": {label: "Duplicate Charges",                     category: "Coding/Accounting", family: "duplicate",           tier_hint: 1}
+  "03.1": {label: "Material/Equipment Reconciliations",    category: "Materials",         family: "material_recon",      tier_hint: 2}
+  "03.2": {label: "Material/Equipment Pricing",            category: "Materials",         family: "material_pricing",    tier_hint: 2}
+  "03.3": {label: "Material - Drill Bits",                 category: "Materials",         family: "material_recon",      tier_hint: 2}
+  "03.4": {label: "Material - Surplus to Operations",      category: "Materials",         family: "material_recon",      tier_hint: 2}
+  "04.0": {label: "Freight",                               category: "Transportation",    family: "freight",             tier_hint: 2}
+  "05.1": {label: "Contractor - Drilling Services",        category: "Contractor",        family: "contractor",          tier_hint: 2}
+  "05.2": {label: "Contractor - Leased Equipment",         category: "Contractor",        family: "contractor",          tier_hint: 2}
+  "05.3": {label: "Contractor - Other",                    category: "Contractor",        family: "contractor",          tier_hint: 2}
+  "06.1": {label: "Admin/OH - Administrative/Regulatory",  category: "Admin/Overhead",    family: "admin_oh",            tier_hint: 3}
+  "06.2": {label: "Admin/OH - Safety Awards/Banquets",     category: "Admin/Overhead",    family: "admin_oh",            tier_hint: 2}
+  "06.3": {label: "Admin/OH - Technical Services",         category: "Admin/Overhead",    family: "admin_oh_technical",  tier_hint: 3}
+  "06.4": {label: "Admin/OH - Legal Services",             category: "Admin/Overhead",    family: "admin_oh",            tier_hint: 3}
+  "06.5": {label: "Admin/OH - Training (Soft Skill)",      category: "Admin/Overhead",    family: "training",            tier_hint: 2}
+  "06.6": {label: "Admin/OH - Other Operator 100% Costs",  category: "Admin/Overhead",    family: "admin_oh",            tier_hint: 3}
+  "07.1": {label: "Facility Alloc - Service Utilities",    category: "Facility Allocation", family: "facility_alloc",    tier_hint: 3}
+  "07.2": {label: "Facility Alloc - Shorebase",            category: "Facility Allocation", family: "facility_alloc",    tier_hint: 3}
+  "07.3": {label: "Facility Alloc - Production",           category: "Facility Allocation", family: "facility_alloc",    tier_hint: 3}
+  "07.4": {label: "Facility Alloc - Field Offices",        category: "Facility Allocation", family: "facility_alloc",    tier_hint: 3}
+  "08.1": {label: "Transportation - Boats",                category: "Transportation",    family: "transportation",      tier_hint: 2}
+  "08.2": {label: "Transportation - Helicopters",          category: "Transportation",    family: "transportation",      tier_hint: 2}
+  "08.4": {label: "Transportation - Fuel",                 category: "Transportation",    family: "transportation",      tier_hint: 2}
+  "09.1": {label: "Payroll - Technical",                   category: "Payroll/Labor (OTL)", family: "otl_labor",         tier_hint: 3}
+  "09.2": {label: "Payroll - Field Operating Labour",      category: "Payroll/Labor (OTL)", family: "otl_labor",         tier_hint: 3}
+  "09.3": {label: "Payroll - Administrative Clerical",     category: "Payroll/Labor (OTL)", family: "otl_labor",         tier_hint: 3}
+  "09.4": {label: "Payroll - Supervision Above First Lvl", category: "Payroll/Labor (OTL)", family: "otl_labor",         tier_hint: 3}
+  "09.7": {label: "Payroll - Benefits & Burden",           category: "Payroll/Labor (OTL)", family: "otl_burden",        tier_hint: 2}
+  "09.8": {label: "Payroll - Relocation",                  category: "Payroll/Labor (OTL)", family: "otl_labor",         tier_hint: 2}
+  "10.0": {label: "Overhead - Incorrect Rate Used",        category: "Admin/Overhead",    family: "overhead_rate",       tier_hint: 1}
+  "11.1": {label: "Computers - Production Systems",         category: "IT/Systems",        family: "it_systems",          tier_hint: 2}
+  "12.0": {label: "Communications",                        category: "IT/Systems",        family: "it_systems",          tier_hint: 2}
+  "15.0": {label: "Documentation",                         category: "Documentation",     family: "documentation",       tier_hint: 2}
+  "15.4": {label: "Accruals or Non-Cash Transactions",     category: "Coding/Accounting", family: "accruals",            tier_hint: 2}
+  "16.0": {label: "Third Party Charges",                   category: "Third Party",       family: "third_party",         tier_hint: 2}
+  "16.1": {label: "Third Party - Labour",                  category: "Third Party",       family: "third_party",         tier_hint: 2}
+  "16.2": {label: "Third Party - Technical",               category: "Third Party",       family: "third_party",         tier_hint: 2}
+  "16.3": {label: "Other Contractor/Vendor",               category: "Third Party",       family: "third_party",         tier_hint: 2}
+  "17.1": {label: "Insurance",                             category: "Insurance/Tax",     family: "insurance",           tier_hint: 2}
+  "17.2": {label: "Ad Valorem & Sales Taxes",              category: "Insurance/Tax",     family: "tax",                 tier_hint: 2}
+  "17.3": {label: "Out of Period Adjustments",             category: "Coding/Accounting", family: "out_of_period",       tier_hint: 1}
+  "17.4": {label: "Miscellaneous / Other",                 category: "Other",             family: "misc",                tier_hint: 2}
+  "18.0": {label: "Affiliates",                            category: "Affiliates",        family: "affiliate",           tier_hint: 3}
+  "18.1": {label: "Affiliates - Timewriting",              category: "Affiliates",        family: "affiliate_timewriting", tier_hint: 3}
+  "18.2": {label: "Affiliates - Rate",                     category: "Affiliates",        family: "affiliate_rate",      tier_hint: 3}
+  "18.3": {label: "Affiliates - Pass Thru Costs",          category: "Affiliates",        family: "affiliate",           tier_hint: 3}
+  "18.4": {label: "Affiliates - Other",                    category: "Affiliates",        family: "affiliate",           tier_hint: 3}
+  "19.0": {label: "Withdrawn",                             category: "Withdrawn",         family: "withdrawn",           tier_hint: 1}
+  "20.0": {label: "Third Party - Mark up Fee",             category: "Third Party",       family: "third_party_markup",  tier_hint: 3}
+  "21.0": {label: "Contract Interpretation - Ineligible Fees/Charges", category: "Contract Interpretation", family: "contract_interp", tier_hint: 3}
+  "21.1": {label: "Contract Rates - Incorrect Charges/Currency",       category: "Contract Interpretation", family: "contract_rate",   tier_hint: 2}
+  "22.0": {label: "Incomplete/Lack of Procedures & Controls",          category: "Controls",  family: "controls",        tier_hint: 3}
+  "23.0": {label: "Timewriting - Unsupported/Invalid Charges",         category: "Payroll/Labor (OTL)", family: "otl_timewriting", tier_hint: 3}
+  "23.1": {label: "Timewriting - Inadequate Allocation Process",       category: "Payroll/Labor (OTL)", family: "otl_timewriting", tier_hint: 3}
+  "23.2": {label: "Timewriting - SEPCO staff costs",                   category: "Payroll/Labor (OTL)", family: "otl_timewriting", tier_hint: 3}
+  # ── Revenue-side codes (R-prefixed) ─────────────────────────────────────────
+  "R21.0": {label: "Revenue",                              category: "Revenue",           family: "revenue",             tier_hint: 3}
+  "R21.2": {label: "Revenue - Incorrect Revenue Interest", category: "Revenue",           family: "revenue_interest",    tier_hint: 3}
+  "R21.3": {label: "Revenue - Pricing Error",              category: "Revenue",           family: "revenue_pricing",     tier_hint: 2}
+  "R21.4": {label: "Revenue - Measurement Error",          category: "Revenue",           family: "revenue_measurement", tier_hint: 3}
+  "R21.5": {label: "Revenue - Volume Allocation Error",    category: "Revenue",           family: "revenue_allocation",  tier_hint: 3}
+  "R21.6": {label: "Revenue - Excess Fuel and Flare Volume Deduction", category: "Revenue", family: "revenue_measurement", tier_hint: 3}
+  "R21.7": {label: "Revenue - Documentation/Statements",   category: "Revenue",           family: "revenue_doc",         tier_hint: 2}
+  "R21.8": {label: "Revenue - Measurement and Allocation Audit",       category: "Revenue", family: "revenue_measurement", tier_hint: 3}
+  "R23.0": {label: "Fees - Incorrect Calculation Methodology",         category: "Revenue", family: "fees",              tier_hint: 2}
+  "R23.1": {label: "Fees - Incorrect Pricing Rate",        category: "Revenue",           family: "fees",                tier_hint: 2}
+  "R24.0": {label: "Equalization (13th Month Adjustment)",  category: "Revenue",          family: "equalization",        tier_hint: 3}

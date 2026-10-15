@@ -1,0 +1,40 @@
+# Master data for Major Construction Project JV Object Types.
+#
+# JADE does not carry a "JV Object Type Description" column. The only field available per charge row
+# is a coded "WBS:JV Object Type" (equivalently "JV Object Type") value, e.g. "C142" or "O143". This
+# registry is the reference table jade_analyzer looks the code up against: every code listed here is a
+# major-construction overhead (MCOH) object type, regardless of the AFE/non-AFE, Capex/OPEX, or penalty-
+# tier qualifiers in its description. A code NOT in this list is not MCOH.
+#
+# This is treated as the complete list. If JADE surfaces a code this registry does not recognize, the
+# agent reports it unmatched rather than guessing — extend this file with the new code and description
+# instead of relying on the model to infer membership.
+codes:
+  - code: "C116"
+    description: "AFE;Capex;Maj Constr OH;No Penalty"
+  - code: "C136"
+    description: "NonAFE;Capex;MajConst OH;No Penalty"
+  - code: "C141"
+    description: "AFE;Capex;MajConst OH;Plat Pen3"
+  - code: "C142"
+    description: "AFE;Capex;MajConst OH;Surf Eqp Pen5"
+  - code: "C143"
+    description: "NonAFE;Capex;MajConst OH;Plat Pen3"
+  - code: "C144"
+    description: "NonAFE;Capex;MajConst OH;SrfEqpPen5"
+  - code: "C145"
+    description: "AFE;Capex;Maj Constr OH;Other Pen7"
+  - code: "O117"
+    description: "AFE;OPEX;Major Constr OH;No Penalty"
+  - code: "O135"
+    description: "NonAFE;OPEX;Maj Const OH;No Penalty"
+  - code: "O142"
+    description: "AFE;OPEX;MajConst OH;Plat Pen3"
+  - code: "O143"
+    description: "AFE;OPEX;MajConst OH;Surf Eqp Pen5"
+  - code: "O144"
+    description: "NonAFE;OPEX;MajConst OH;Plat Pen3"
+  - code: "O145"
+    description: "NonAFE;OPEX;MajConst OH;SrfEqpPen5"
+  - code: "O153"
+    description: "OPEX;Major Constr OH;Other Pen7"

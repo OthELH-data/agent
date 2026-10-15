@@ -1,0 +1,259 @@
+# Pinpointed Chevron OTL provisions from:
+# C00025092-001 _ 2019 CVX GOM SETTLEMENT AGREEMENT.pdf
+#
+# These records supplement the broad extracted rules.  They preserve the exact
+# Attachment 1 subsection so the final response cannot collapse every OTL issue
+# into a generic "Settlement Agreement" citation.
+source_doc: "C00025092-001 _ 2019 CVX GOM SETTLEMENT AGREEMENT.pdf"
+instrument: "2019 Chevron GOM Settlement Agreement"
+partner: "Chevron"
+asset_scope: ["Perdido", "Silvertip", "Great White", "GW", "Tobago"]
+
+sections:
+  - rule_id: "otl-cvx-application-section-2"
+    section: "Section 2 – Agreed OTL Definition and Rules Application; Attachment 1"
+    page: "26"
+    statement: "The parties apply the OTL definition and billing rules in Attachment 1."
+    quote: >-
+      The Parties shall apply the offsite technical labor definition and associated
+      billing rules contained in Attachment 1 attached hereto and made part hereof
+      (Agreed OTL Definition and Billing Standards) (the "Agreed OTL Definition and Rules").
+    match_text: "settlement controls agreed OTL definition billing rules attachment application"
+    always_include: true
+    applies_to_ground_types: []
+    application_scope: "incorporation"
+    application_summary: >-
+      This provision incorporates Attachment 1's OTL definition and billing
+      standards; it does not by itself resolve a factual allegation.
+
+  - rule_id: "otl-cvx-definition-attachment-1-1"
+    section: "Attachment 1 §1 – Definition of Offsite Technical Labor"
+    page: "32"
+    statement: >-
+      Technical personnel may perform qualifying Joint Operations work away from
+      the Joint Property; physical location is not dispositive, but the personnel
+      must be assigned to and working principally for the benefit of the Joint
+      Operations.
+    quote: >-
+      "OTL" shall mean actual costs incurred (including salaries and wages) for
+      Technical Employees (as defined herein) and/or actual costs incurred for
+      professional consultant services and contract services of technical personnel
+      either temporarily or permanently assigned to and working for the principle
+      benefit of the Joint Operations (as defined in the JOA) but located 'offsite'
+      or off of the Joint Property (as defined in the JOA), which are part of
+      approved activities or activities conducted by the Operator which do not
+      require vote or election (as defined in the JOA).
+    match_text: >-
+      definition offsite technical labor location off joint property principal
+      benefit joint operations other asset presence travel wrong property
+    always_include: true
+    applies_to_ground_types: ["wrong_property_location"]
+    application_scope: "governing_test"
+    application_summary: >-
+      Physical location away from the Joint Property is not dispositive for OTL;
+      the governing test is assignment to and work principally benefiting Joint
+      Operations. Current-case evidence must separately establish the dates,
+      assignment, and beneficiary.
+
+  - rule_id: "otl-cvx-technical-employees-attachment-1-2"
+    section: "Attachment 1 §2 – Definition of Technical Employees"
+    page: "32"
+    statement: >-
+      Technical-employee classification turns on special technical or operational
+      skill and work performed for the benefit of the Joint Property.
+    quote: >-
+      "Technical Employees" shall mean those employees, having special and specific
+      engineering, geological, geophysical technical or operational skills (including
+      planners, schedulers and execution support for facility maintenance, well
+      maintenance and turnaround activities), and whose function in Joint Operations
+      is providing services for the benefit of the Joint Property.
+    match_text: >-
+      technical employee special engineering geological geophysical operational
+      skills job title role classification first level supervision
+    always_include: true
+    applies_to_ground_types: ["technical_employee"]
+    application_scope: "governing_test"
+    application_summary: >-
+      Technical-employee status turns on the employee's special technical or
+      operational skills and services benefiting the Joint Property. A title
+      alone does not establish all chargeability elements.
+
+  - rule_id: "otl-cvx-technical-employees-exclusions-attachment-1-2"
+    section: "Attachment 1 §2 – Technical Employee Exclusions"
+    page: "32"
+    statement: >-
+      Procurement, administration, accounting and auditing, pipeline nomination
+      and scheduling, human-resources, management, non-first-level supervision,
+      legal, tax, permitting/regulatory, land, and division-order functions are
+      excluded from Technical Employees and compensated through overhead.
+    quote: >-
+      For the avoidance of doubt Technical Employees do not include procurement,
+      administration, accounting and auditing, pipeline nominations and scheduling,
+      human resources, management, supervision (excluding first level supervision
+      of operational staff which is billable), legal services, handling taxation
+      matters, permitting/regulatory work, land and division order services. All
+      costs and expenses associated with such functions, including the salaries or
+      wages plus applicable payroll burdens, benefits, and personal expenses of
+      personnel performing such functions, as well as their office and other support
+      costs, are considered to be compensated/covered by the Overhead rates
+      established in the JOA Accounting Procedure Section 3.
+    match_text: >-
+      technical employee exclusions overhead procurement administration accounting
+      auditing human resources management supervision legal tax permitting
+      regulatory land division order
+    always_include: true
+    applies_to_ground_types: ["technical_employee"]
+    application_scope: "governing_exclusion"
+    application_summary: >-
+      The role and actual challenged work must be tested against every express
+      exclusion as well as the positive technical-skill definition. A generic
+      permitted-activity label does not establish Technical Employee status.
+      Where exact person-specific activity and Federal Register program evidence
+      satisfies §3.A, preserve the apparent §2/§3.A provision interaction for a
+      clause-aware chargeability application and adversarial review rather than
+      silently treating the two provisions as unrelated unconditional gates.
+
+  - rule_id: "otl-cvx-regulatory-chargeability-attachment-1-3a"
+    section: "Attachment 1 §3.A – Regulatory Activity"
+    page: "32"
+    statement: >-
+      Regulatory OTL required by BSEE, law, regulation, or SEMS is chargeable,
+      subject to the subsection's AFE and documentation conditions.
+    quote: >-
+      OTL is chargeable to the joint account for activities required to comply with
+      any governmental agency, authority, commission, political subdivision, or any
+      other governmental body or entity, including but not limited to the Bureau of
+      Safety and Environmental Enforcement (BSEE), and any applicable law or
+      regulation, including but not limited to the activities included in the
+      required SEMS program pursuant to 30 CFR 250.1902
+    match_text: >-
+      section 3A regulatory BSEE SEMS CFR Federal Register compliance approved AFE
+      regulatory designation program elements documentation
+    explicit_codes: ["3A"]
+    applies_to_ground_types: ["agreement_eligibility"]
+    application_scope: "permitted_route"
+    application_summary: >-
+      This provision supplies the regulatory-activity route. Current-case
+      evidence must connect the charged activity to the route's regulatory,
+      approval, and documentation conditions. When exact person-specific work
+      and program-element evidence closes those conditions, §3.A may answer the
+      combined chargeability question even where a generic role label resembles
+      a §2 exclusion; both provisions and the interpretive limitation must remain
+      traceable and the application must survive independent adjudication.
+
+  - rule_id: "otl-cvx-regulatory-documentation-attachment-1-3a"
+    section: "Attachment 1 §3.A – Regulatory Activity"
+    page: "33"
+    statement: >-
+      Mandatory regulatory OTL must identify the activity and applicable Federal
+      Register program elements, with an approved AFE where required.
+    quote: >-
+      OTL charges related to the above regulatory activities must be adequately and
+      properly documented by the Operator, identifying the specific activity of the
+      individual(s), and will reference specific program elements as described in the
+      Federal Register.
+    match_text: >-
+      section 3A missing documentation AFE specific activity Federal Register
+      program element regulatory designation auditor says not adequately documented
+    explicit_codes: ["3A"]
+    applies_to_ground_types: ["agreement_eligibility"]
+    application_scope: "route_documentation"
+    application_summary: >-
+      This provision supplies the documentation conditions for the regulatory
+      route. It applies only when current-case evidence selects that route.
+
+  - rule_id: "otl-cvx-project-studies-attachment-1-3b"
+    section: "Attachment 1 §3.B – Feasibility and Project Studies"
+    page: "33"
+    statement: >-
+      OTL for field/facility improvements and feasibility studies is chargeable
+      under a separately approved AFE.
+    quote: >-
+      OTL associated with field improvement or facility improvement projects, and
+      for feasibility studies undertaken to progress future projects, pursuant to a
+      separately approved Authorization for Expenditure is chargeable.
+    match_text: >-
+      section 3B feasibility study project study field improvement facility
+      improvement engineering design project AFE
+    explicit_codes: ["3B"]
+    applies_to_ground_types: ["agreement_eligibility"]
+    application_scope: "permitted_route"
+    application_summary: >-
+      This provision supplies the field/facility-improvement and feasibility-
+      study route. Current-case evidence must connect the work to a separately
+      approved AFE and a covered activity.
+
+  - rule_id: "otl-cvx-planners-schedulers-attachment-1-3c"
+    section: "Attachment 1 §3.C – Planners & Schedulers, Maintenance and Turnaround, Rig Administration"
+    page: "33"
+    statement: >-
+      Planner, scheduler, plan-execution, maintenance, turnaround, and rig-
+      administration OTL is chargeable when the described relocation test is met.
+    quote: >-
+      OTL is chargeable to the joint account for planners, schedulers, plan execution
+      supporters and others working on drilling, completions, facility maintenance,
+      well maintenance operations and turnaround activities whose function was
+      previously performed offshore/onsite but have been relocated onshore but
+      excluding any non-technical personnel engaged in dedicated administrative
+      support of such activities.
+    match_text: >-
+      section 3C planner scheduler plan execution support maintenance turnaround rig
+      administration previously performed offshore relocated onshore
+    explicit_codes: ["3C"]
+    applies_to_ground_types: ["agreement_eligibility"]
+    application_scope: "permitted_route"
+    application_summary: >-
+      This provision supplies the planner, scheduler, execution-support,
+      maintenance, turnaround, and rig-administration route. Current-case
+      evidence must establish the covered function and the relocation condition.
+
+  - rule_id: "otl-coua-major-construction-exhibit-c-3-2b"
+    section: "Exhibit \"C\" §III, Paragraph 2.B.a – Services Rendered by Operator's Employees (Major Construction clarification)"
+    source_doc: "C00015501-000 - CONSTRUCTION OPERATING & UTILIZATION AGM_.pdf"
+    instrument: "Construction, Operating and Utilization Agreement (COUA)"
+    page: "125-126"
+    statement: >-
+      Salaries, wages, payroll burden and Personal Expenses of Operator personnel performing technical
+      services for the benefit of the Joint Account in connection with the design, construction and
+      installation of the Major Construction project are charged direct, regardless of the personnel's
+      physical location.
+    quote: >-
+      SECTION III, PARAGRAPH 2.B: In order to clarify "engineering, design and drafting costs" chargeable
+      under Section III, Paragraph 2.B of this Exhibit "C," the following shall apply: a. SERVICES
+      RENDERED BY OPERATOR'S EMPLOYEES All salaries, wages, payroll burden and Personal Expenses of
+      personnel performing technical services for the benefit of the Joint Account in connection with the
+      design, construction and installation of the Major Construction project shall be charged direct
+      regardless of location. Such personnel shall be comprised of Operator's Producing and Exploration
+      Department employees including engineers, environmentalists, technologists, engineering assistants,
+      technicians, draftsmen, construction representatives and other personnel performing technical
+      services.
+    match_text: >-
+      major construction overhead MCOH engineering design drafting costs services rendered operator
+      employees section III paragraph 2B exhibit C construction operating utilization agreement direct
+      regardless of location
+    always_include: false
+    applies_to_ground_types: ["major_construction"]
+    application_scope: "permitted_route"
+    application_summary: >-
+      This provision is the direct-charge authority for Major Construction labor: personnel performing
+      technical services in connection with the design, construction and installation of the Major
+      Construction project are charged direct to the Joint Account regardless of where they were located.
+      Current-case evidence still has to place the person's charged labor on that Major Construction
+      project — the jade_analyzer JV-object-type code lookup is that evidence.
+
+  - rule_id: "otl-cvx-affiliate-attachment-1-5"
+    section: "Attachment 1 §5 – Information (Affiliate OTL)"
+    page: "33"
+    statement: "Affiliate-performed OTL is tested under the same OTL standards."
+    quote: >-
+      It is also acknowledged that OTL can occur when the Operator has chosen to
+      utilize an affiliate; in such cases, the same OTL chargeability standards
+      established in this Agreement apply.
+    match_text: >-
+      affiliate SIEP CATS intercompany affiliate labor same chargeability standards
+    explicit_codes: ["5"]
+    applies_to_ground_types: ["agreement_eligibility"]
+    application_scope: "affiliate_rule"
+    application_summary: >-
+      Affiliate performance does not itself disqualify OTL; the same substantive
+      chargeability standards still apply to the current-case work.

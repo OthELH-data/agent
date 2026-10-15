@@ -1,0 +1,89 @@
+{
+  "_README": [
+    "Anthropic published list prices for the three models this pipeline uses, plus a skeleton for the",
+    "Azure/OpenAI models. See configs/model_pricing.example.json for what each key means and how a",
+    "missing rate degrades.",
+    "",
+    "A cache WRITE is the only class whose rate depends on how long the entry is asked to live, so",
+    "both columns are carried here:",
+    "",
+    "  cache_write_5m   1.25x `in` — a 5-minute entry, what a bare cache_control asks for",
+    "  cache_write_1h   2x `in`    — a 1-hour entry, what cache_control with ttl \"1h\" asks for",
+    "",
+    "extractor/pricing.py prices whichever column matches MODEL_CACHE_TTL for the run (1h by default)",
+    "and names the choice as `cache_ttl` in the cost block. So flipping that variable reprices the",
+    "run on its own — do not collapse these two keys back into one `cache_write`.",
+    "",
+    "The `models` section is keyed by the exact model id a run records, and it wins over `tiers`. It is",
+    "there because a tier name says how important a call was, not what it cost: `high` is claude-opus-5",
+    "on --provider ica and a gpt-5 model on --provider azure. The `tiers` section below stays as the",
+    "fallback for a Claude run and for any model with no entry of its own.",
+    "",
+    "The GPT-5.6 entries use the supplied deployment price table. The four values are stored as",
+    "new input, cached input, cache write, and output rates, respectively. The supplied table does",
+    "not distinguish cache-write lifetime, so each uses the single `cache_write` rate for either",
+    "configured TTL. These are estimates until the gateway publishes a deployment-specific rate card.",
+    "",
+    "The model keys must match whatever the run resolves. On azure that is AZURE_MODEL_<TIER> in .env,",
+    "falling back to _TIER_DEFAULTS in extractor/llm.py. Rename these",
+    "keys if your deployment uses different ids, or the tier rates get used instead and the cost block",
+    "reports rates_basis 'tier'.",
+    "",
+    "These are vendor list prices, NOT a gateway contract. Calls go through the IBM ICA gateway (ica) or",
+    "an Azure OpenAI deployment (azure), either of which may bill differently. Treat the run's",
+    "`total_usd` as an estimate at list price."
+  ],
+  "rates_source": "Supplied GPT-5.6 deployment pricing table",
+  "as_of": "2026-09-23",
+  "currency": "USD",
+  "unit": "per_million_tokens",
+  "models": {
+    "gpt-5.6-sol": {
+      "cache_write_billed": true,
+      "in": 4.00,
+      "cache_write": 5.00,
+      "cache_read": 0.40,
+      "out": 20.00
+    },
+    "gpt-5.6-terra": {
+      "cache_write_billed": true,
+      "in": 2.00,
+      "cache_write": 2.50,
+      "cache_read": 0.20,
+      "out": 12.00
+    },
+    "gpt-5.6-luna": {
+      "cache_write_billed": true,
+      "in": 0.20,
+      "cache_write": 0.25,
+      "cache_read": 0.02,
+      "out": 1.20
+    }
+  },
+  "tiers": {
+    "high": {
+      "model": "claude-opus-5",
+      "in": 5.00,
+      "cache_write_5m": 6.25,
+      "cache_write_1h": 10.00,
+      "cache_read": 0.50,
+      "out": 25.00
+    },
+    "med": {
+      "model": "claude-sonnet-5",
+      "in": 2.00,
+      "cache_write_5m": 2.50,
+      "cache_write_1h": 4.00,
+      "cache_read": 0.20,
+      "out": 10.00
+    },
+    "light": {
+      "model": "claude-haiku-4-5",
+      "in": 1.00,
+      "cache_write_5m": 1.25,
+      "cache_write_1h": 2.00,
+      "cache_read": 0.10,
+      "out": 5.00
+    }
+  }
+}

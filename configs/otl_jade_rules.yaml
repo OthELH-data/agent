@@ -1,0 +1,50 @@
+schema_version: 1
+
+cats_accounts:
+  A9820140: "CATS Labor OP BI"
+  A9820120: "CATS Labor Staff BI"
+  A9820320: "CATS Contractor"
+
+mcoh_monthly_threshold_hours: 8.0
+
+exempt_roles:
+  - "offshore installation manager"
+  - "oim"
+  - "maintenance supervisor"
+  - "wells lead"
+
+ipt_terms:
+  - "integrated project team"
+  - "ipt"
+
+asset_cost_centers:
+  Enchilada:
+    "101003": "PS16-Enchilada _OperPRD O1 A71300 NB 3"
+    "101029": "PS16-Enchilada_StaffPRD O1 A71300 NB 3"
+  Auger:
+    "101016": "U1-Auger Ops Ho_OperPRD O1 A71300 NB 3"
+    "101042": "U1-Auger Ops H_StaffPRD O1 A71300 NB 3"
+  Ursa:
+    "101019": "85-Ursa Ops Hom_OperPRD O1 A71300 NB 3"
+    "101045": "85-Ursa Ops Ho_StaffPRD O1 A71300 NB 3"
+  Perdido:
+    "156112": "Perdido Ops_Hourly"
+    "156113": "Perdido Ops_Staff"
+  Olympus:
+    "329782": "Olympus Ops HourlyCC"
+    "329783": "Olympus Ops Staff CC"
+  Appomattox:
+    "418068": "Appo Ops Hourly CC"
+    "418069": "Appo Ops Staff CC"
+  Vito:
+    "418075": "Vito Ops Hourly CC"
+    "418076": "Vito Ops Staff CC"
+  Stones:
+    "418082": "Stones Ops Hourly CC"
+    "418083": "Stones Ops Staff CC"
+  Mars:
+    "101013": "U1-Mars Ops Hom_OperPRD O1 A71300 NB 3"
+    "101039": "U1-Mars Ops Ho_StaffPRD O1 A71300 NB 3"
+  Whale:
+    "500883": "Whale Ops Hrly CC NBPRDO1A71300NB3"
+    "500884": "Whale Ops Stff CC NBPRDO1A71300NB3"

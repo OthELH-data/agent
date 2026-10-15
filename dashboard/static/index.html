@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#ffd500" />
+    <title>Shell JV Audit · Token Spend</title>
+    <link rel="icon" href="/shell_logo.svg" type="image/svg+xml" />
+    <script>
+      // Stamp the theme before first paint so the page never flashes the wrong one.
+      (() => {
+        let choice = "system";
+        try { choice = localStorage.getItem("dashboard-theme") || "system"; } catch { /* storage blocked */ }
+        const dark = choice === "dark" || (choice === "system" && matchMedia("(prefers-color-scheme: dark)").matches);
+        document.documentElement.dataset.theme = dark ? "dark" : "light";
+        document.documentElement.dataset.themePref = choice;
+      })();
+    </script>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="Shell JV Audit dashboard home">
+        <img class="shell-mark" src="/shell_logo.svg" alt="Shell" />
+        <span>
+          <strong>Shell JV Audit</strong>
+          <small>Token intelligence</small>
+        </span>
+      </a>
+      <div class="top-actions">
+        <div class="theme-toggle" role="radiogroup" aria-label="Color theme">
+          <button type="button" role="radio" data-theme-choice="light" aria-checked="false" title="Light theme"><span aria-hidden="true">☀</span><em>Light</em></button>
+          <button type="button" role="radio" data-theme-choice="dark" aria-checked="false" title="Dark theme"><span aria-hidden="true">☾</span><em>Dark</em></button>
+          <button type="button" role="radio" data-theme-choice="system" aria-checked="false" title="Match your system setting"><span aria-hidden="true">◐</span><em>Auto</em></button>
+        </div>
+        <span id="targetBadge" class="target-badge">Connecting…</span>
+        <button id="refreshButton" class="button button-dark" type="button">
+          <span aria-hidden="true">↻</span> Refresh cache
+        </button>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">AI cost control · Excel evidence to labor inference</p>
+          <h1>Know exactly where every token dollar goes.</h1>
+          <p>
+            Live spend, cache efficiency, and rebuttal-level usage for the Excel Extractor and
+            Labor Inference pipelines—joined to the temporal test set.
+          </p>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="orb orb-one"></div>
+          <div class="orb orb-two"></div>
+          <div class="hero-number">
+            <span>Combined spend</span>
+            <strong id="heroSpend">—</strong>
+            <small id="heroSavings">Loading metrics</small>
+          </div>
+        </div>
+      </section>
+
+      <section class="filters" aria-label="Dashboard filters">
+        <div class="filter-group">
+          <label for="categoryFilter">Exception category</label>
+          <select id="categoryFilter">
+            <option value="all">All categories</option>
+          </select>
+        </div>
+        <div class="filter-group filter-search">
+          <label for="caseSearch">Find a case</label>
+          <input id="caseSearch" type="search" placeholder="Asset, year, or exception ID" autocomplete="off" />
+        </div>
+        <div class="filter-status">
+          <span id="visibleCases">—</span>
+          <small id="lastUpdated">Waiting for output index</small>
+        </div>
+      </section>
+
+      <section id="globalMetrics" class="global-metrics" aria-label="Combined metrics"></section>
+
+      <nav class="section-nav" aria-label="Pipeline sections">
+        <button class="section-tab active" type="button" data-section="extractor">
+          <span class="tab-index">01</span>
+          <span><strong>Excel Extractor</strong><small>Evidence interpretation</small></span>
+        </button>
+        <button class="section-tab" type="button" data-section="inference">
+          <span class="tab-index">02</span>
+          <span><strong>Labor Inference</strong><small>OTL orchestration</small></span>
+        </button>
+      </nav>
+
+      <div id="loadingState" class="loading-state">
+        <div class="loader" aria-hidden="true"></div>
+        <div>
+          <strong>Loading metric cache</strong>
+          <p>Dashboard refreshes read local SQLite only—SharePoint is not scanned.</p>
+        </div>
+      </div>
+
+      <div id="sections" hidden>
+        <section id="section-extractor" class="pipeline-section active" data-section="extractor"></section>
+        <section id="section-inference" class="pipeline-section" data-section="inference"></section>
+      </div>
+
+      <div id="errorState" class="error-state" hidden>
+        <strong>Dashboard data could not be loaded.</strong>
+        <p id="errorMessage"></p>
+        <button class="button button-red" type="button" id="errorRetry">Try again</button>
+      </div>
+    </main>
+
+    <footer>
+      <span>Shell JV Audit Intelligence</span>
+      <span>Token costs are estimates from the configured model price map.</span>
+    </footer>
+
+    <dialog id="caseDialog" class="case-dialog">
+      <div class="dialog-shell">
+        <header class="dialog-header">
+          <div>
+            <p id="dialogEyebrow" class="eyebrow">Case detail</p>
+            <h2 id="dialogTitle">Loading…</h2>
+            <p id="dialogSubtitle"></p>
+          </div>
+          <button id="closeDialog" class="icon-button" type="button" aria-label="Close case details">×</button>
+        </header>
+        <div id="dialogBody" class="dialog-body"></div>
+      </div>
+    </dialog>
+
+    <template id="skeletonRows">
+      <div class="skeleton-row"></div>
+      <div class="skeleton-row"></div>
+      <div class="skeleton-row"></div>
+    </template>
+
+    <script src="/app.js" defer></script>
+  </body>
+</html>

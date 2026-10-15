@@ -1,0 +1,31 @@
+# OTL graph feature gates.
+#
+# Each entry may be either a boolean or an expanded mapping with an `enabled` boolean. The expanded
+# form is preferred when a note will help operators understand why the gate exists. Graph topology
+# determines where execution continues when a gate is disabled.
+schema_version: 1
+
+# Input sources are independent. The classified-exceptions catalog is the baseline case record.
+# Extractor outputs are a SharePoint-backed input source. Enabling it makes a matching synthesis
+# artifact a prerequisite for each OTL case; disabling it keeps all extractor content out of graph state.
+input_sources:
+  classified_exceptions:
+    enabled: true
+    path: ./datastores/classified_exceptions.json
+  extractor_outputs:
+    enabled: true
+    # When enabled, synthesis is mandatory. Local runs read INPUT_BASE_PIPELINE; SharePoint runs read this
+    # folder. A missing or unreadable artifact skips the case before the OTL graph is invoked.
+    directory_env: INPUT_BASE_PIPELINE
+    read_folder_env: SHAREPOINT_READ_FOLDER
+    # Keep workbook parsing independently configurable from the extractor itself. When disabled,
+    # the extractor will process non-workbook evidence only (for example PDFs, JSON, JPGs, and PNGs).
+    excel_parsing:
+      enabled: true
+
+node_gates:
+  verify_evidence:
+    enabled: true
+    description: >-
+      Require the auditor's cited evidence to pass the category-specific sufficiency check before
+      continuing to JADE reconstruction.

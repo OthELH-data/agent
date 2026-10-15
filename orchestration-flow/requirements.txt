@@ -1,0 +1,13 @@
+# OTL orchestration layer — reuses the excel_extractor toolchain, adds the graph engine + data libs.
+# Install from this directory:  pip install -r requirements.txt
+-r ../excel_extractor/requirements.txt
+langgraph>=0.2.0
+langchain-core>=0.3.0
+pandas>=2.2.0
+rapidfuzz>=3.9.0
+pyyaml>=6.0        # code_classifier.py reads copas_error_codes.yaml (not in the extractor set)
+torch>=2.3.0       # optional local POS candidate model for JADE name discovery
+transformers>=4.44.0
+openai>=1.40.0     # Azure AI Foundry embeddings for the agreement index (AzureOpenAI client)
+sqlite-vec>=0.1.6  # vec0 vector table in the agreement index (partition-key/metadata filtering needs 0.1.6+)
+tiktoken>=0.7      # cl100k_base tokenizer to bound runtime query embedding input (installed: 0.14.0)

@@ -1,0 +1,44 @@
+index_in_sample,asset,year,exc_id,topic,site,exc,section,amount,desc
+79,Great White,2025,0016,Material Reconciliation,GreatWhite,016,OPEN EXCEPTIONS,"224,490.71",Material Reconciliation - GD08 Drilling - Various Materials
+80,Great White,2024,0082,Material Reconciliation,GreatWhite,0082,OPEN EXCEPTIONS,"124,986.60",Material Reconciliation - GD-09 Drilling - 22.0 Specialty Joint
+81,Silvertip,2023,0003,Material Reconciliation,Silvertip,0003,OPEN EXCEPTIONS,0.00,Materials Reconciliation - SIL SA006 Drilling - Audit Right Preservation
+82,Great White,2025,0014,Material Reconciliation,GreatWhite,014,OPEN EXCEPTIONS,"10,867.10",Material Reconciliation - GD- 09 Drilling LLE - CSG 14.000
+83,Great White,2023,0072,Material Reconciliation,Great White,0072,OPEN EXCEPTIONS,"7,194.38",Material Recon-Perdido Phase 2 - GD005 Drill-9.625 Casing
+84,Great White,2024,0084,Material Reconciliation,GreatWhite,0084,OPEN EXCEPTIONS,"51,500.10",Material Reconciliation - GD-09 Drilling - 18.75x14.0 Casing Hanger Assembly
+85,Great White,2024,0037,Material Reconciliation,GreatWhite,0037,OPEN EXCEPTIONS,"65,737.35","Material Reconciliation - GD-08 IEW - CSHG ASSY 18.750"""
+86,Great White,2022,0042,Material Reconciliation,Great White,042,EXCEPTION SUMMARY,0.00,MaterialRecon(GA017 Drilling)
+87,Silvertip,2023,0027,Labor Issues,Silvertip,0027,OPEN EXCEPTIONS,"23,772.28",COUA - Project/OPEX Matrix - CBOH - Offsite Tech - Affiliate Labor
+88,Silvertip,2023,0012,Labor Issues,Silvertip,0012,OPEN EXCEPTIONS,"30,915.59",COUA - Project - CBOH - Offsite Tech - HAZOP Actions Engineer Study (2020-2022)
+89,GW Chevron,2023,0006,Labor Issues,Great white (Chevron),0006,OPEN EXCEPTIONS,"170,514.24",COUA - Project - CBOH - Offsite Tech - HAZOP Actions Engineer Study (2020-2022)
+90,Silvertip,2023,0002,Labor Issues,Silvertip,0002,OPEN EXCEPTIONS,"18,390.60",COUA - Opex Matrix/Project - CBOH - Offsite Tech - Waldemar S Nelson
+91,Silvertip,2023,0010,Labor Issues,Silvertip,0010,OPEN EXCEPTIONS,"84,201.98",CBOH - Offsite Tech - SIEP Labor
+92,Silvertip,2023,0020,Labor Issues,Silvertip,0020,OPEN EXCEPTIONS,"79,635.17",COUA - Opex Matrix/Project - CBOH - Offsite Tech - Worley
+93,Great White,2023,0033,Labor Issues,Great White,0033,OPEN EXCEPTIONS,"12,311.57",CBOH - Admin - CATS Labor
+94,Great White,2024,0049,Labor Issues,GreatWhite,0049,OPEN EXCEPTIONS,"68,476.37",COUA - Opex Matrix - Contractors billed operating labor& burden (Perform Well and Facil)
+95,Silvertip,2023,0030,Labor Issues,Silvertip,0030,OPEN EXCEPTIONS,"64,311.68",COUA - Project/OPEX Matrix - CBOH - Offsite Tech - CATS Labor
+96,Silvertip,2022,0002,Labor Issues,Silvertip,02,EXCEPTION SUMMARY,"13,616.65",IncorrectLabor Burden Charged
+97,Great White,2024,0041,Labor Issues,GreatWhite,0041,OPEN EXCEPTIONS,"1,236,861.37",CBOH - Offsite Technical Labor - CATS Labor
+98,Silvertip,2023,0023,Labor Issues,Silvertip,0023,OPEN EXCEPTIONS,"11,780.15",COUA - Project/OPEX Matrix - CBOH - Offsite Tech - CATS Labor
+99,Silvertip,2025,0008,Labor Issues,SilverTip,008,OPEN EXCEPTIONS,"62,955.20",Above First Line Supervisor
+100,Tobago,2025,0001,Labor Issues,Tobago,001,OPEN EXCEPTIONS,"36,662.30",CATS Labor for Employees not on POB
+101,Silvertip,2025,0009,Labor Issues,SilverTip,009,OPEN EXCEPTIONS,"12,874.40",Affiliate - Admin Labor Covered by Overhead
+102,Silvertip,2024,0009,Labor Issues,Silvertip,0009,OPEN EXCEPTIONS,"14,181.40",CBOH - Admin - Labor Staff - Ryan Foultz
+103,Perdido,2023,0003,Labor Issues,Perdido,0003,OPEN EXCEPTIONS,"157,928.70",COUA - Project/OPEX Matrix - CBOH - Offsite Tech - CATS Labor
+104,Great White,2024,0050,Labor Issues,GreatWhite,0050,OPEN EXCEPTIONS,"22,921.51",Contractors billed operating labor & burden
+105,Perdido,2023,0011,Labor Issues,Perdido,0011,OPEN EXCEPTIONS,"2,009,193.63",COUA - Project/OPEX Matrix - CBOH - Offsite Tech - CATS Labor
+106,Great White,2023,0031,Labor Issues,Great White,0031,OPEN EXCEPTIONS,"148,758.20",Above First Level Supervision
+107,Silvertip,2023,0022,Labor Issues,Silvertip,0022,OPEN EXCEPTIONS,"9,187.87",COUA - OPEX Matrix - CBOH - Offsite Tech - CATS Labor
+108,Great White,2024,0045,Labor Issues,GreatWhite,0045,OPEN EXCEPTIONS,"2,860,139.13",Affiliate Labor - Personnel Not on Site
+109,Great White,2023,0005,Labor Issues,Great White,0005,OPEN EXCEPTIONS,"137,225.46",CBOH - Offsite Tech - SIEP Affiliate Labor
+110,Great White,2023,0003,Labor Issues,Great White,0003,OPEN EXCEPTIONS,"47,365.25",CBOH - Offsite Tech - SIEP Affiliate Labor
+111,Tobago,2023,0001,Labor Issues,Tobago,0001,OPEN EXCEPTIONS,"27,898.08",Affiliate Labor
+112,Great White,2023,0004,Labor Issues,Great White,0004,OPEN EXCEPTIONS,"2,575,230.30",CBOH - Offsite Tech - SIEP Affiliate Labor
+113,Great White,2025,0032,Labor Issues,GreatWhite,032,OPEN EXCEPTIONS,"2,188,830.81",Affiliate - Personnel Not on Staff Listing
+114,Silvertip,2024,0018,Labor Issues,Silvertip,0018,OPEN EXCEPTIONS,"10,526.89",COUA - Opex Matrix - Contractors billed operating labor& burden (Perform Well and Facil)
+115,Great White,2023,0007,Labor Issues,Great White,0007,OPEN EXCEPTIONS,"37,014.98",CBOH - Offsite Tech - SIEP Affiliate Labor
+116,Great White,2023,0044,Labor Issues,Great White,0044,OPEN EXCEPTIONS,"453,263.05",Staff Time Writing Coded Non- Billable
+117,Perdido,2023,0002,Labor Issues,Perdido,0002,OPEN EXCEPTIONS,"52,274.74",COUA - OPEX Matrix - CBOH - Offsite Tech - CATS Labor
+118,Tobago,2025,0003,Labor Issues,Tobago,003,OPEN EXCEPTIONS,"21,991.90",Affiliate Labor - Personnel Not On Staff Listing
+119,Great White,2024,0044,Labor Issues,GreatWhite,0044,OPEN EXCEPTIONS,"504,666.72",Personnel not found on Staff Listing
+120,Silvertip,2025,0010,Labor Issues,SilverTip,010,OPEN EXCEPTIONS,"20,885.76",Affiliate Labor - Personnel Not on Staff Listing
+121,Great White,2023,0010,Material Reconciliation,Great White,0010,OPEN EXCEPTIONS,"174,679.37",Material Reconciliation - GD007 Completions - 5.5" Tubing

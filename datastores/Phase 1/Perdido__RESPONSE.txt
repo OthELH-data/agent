@@ -1,0 +1,355 @@
+OPERATOR AUDIT of Perdido Regional Host
+Auditor: CHEVRON | Operator: Shell (2023SOV_E101)
+Period: 01 January 2022 - 31 December 2022
+Sent by: Shell on 27 March 2024
+                                                 Amounts in United States - USD | Type: Monetary (M), Procedural (P) or TBD
+
+
+                                               Gross Credit     Gross Credit     Gross Credit     Gross Credit
+           Summary of Exceptions                                                                                   Count
+                                                Requested        Accepted           Denied            Open
+                                                2,295,144.78       11,165.00      2,283,979.78     2,295,144.78     15
+
+OPEN EXCEPTIONS
+   ID                Description               Gross Credit     Gross Credit     Gross Credit     Gross Credit     Type
+                                                Requested        Accepted          Denied            Open
+  0002     COUA - OPEX Matrix - CBOH -            52,274.74              0.00       52,274.74        52,274.74      M
+           Offsite Tech – CATS Labor
+  0003     COUA - Project/OPEX Matrix -          157,928.70              0.00       157,928.70       157,928.70     M
+           CBOH – Offsite Tech – CATS Labor
+  0004     COUA - OPEX Matrix - Coding             6,418.69              0.00         6,418.69         6,418.69     M
+           Error – Affiliate Labor
+  0005     COUA - OPEX Matrix - BOH –              1,356.00              0.00         1,356.00         1,356.00     M
+           Admin – MTAP
+  0009     COUA - Project/OPEX Matrix -            3,170.08              0.00         3,170.08         3,170.08     M
+           Documentation - IQN Timecards
+  0011     COUA - Project/OPEX Matrix -        2,009,193.63              0.00     2,009,193.63     2,009,193.63     M
+           CBOH – Offsite Tech – CATS Labor
+  0012     Coding Error – Grand Isle              17,551.00         11,165.00         6,386.00        17,551.00     M
+           Shipyard Inc
+  0014     Coding Error – Allocation Error -      47,251.94              0.00        47,251.94        47,251.94     M
+           Joshua Candies - Voyage
+           20221054
+                    TOTAL                      2,295,144.78        11,165.00      2,283,979.78     2,295,144.78
+EXCEPTION DETAILS
+
+Auditor Company:        CHEVRON                                   Issue Date:            May 26, 2023
+Operator Company:       Shell                                     Review Period:         01 January 2022 - 31 December 2022
+Auditor:                Jordon LaGrone                            CC/AFE:                various/various
+Error Type:             09.1 Payroll - Technical
+
+
+   ID                Description                   Gross Credit    Gross Credit      Gross Credit      Gross Credit      Type
+                                                    Requested       Accepted           Denied             Open
+ 0002     COUA - OPEX Matrix - CBOH -                 52,274.74             0.00        52,274.74         52,274.74        M
+          Offsite Tech – CATS Labor
+
+
+Description:
+The Operator charged the Perdido Joint Account $52,274.74 for CATS Payroll costs which appear to be administrative in nature
+and covered by OH (SAP support specialists, data reporting techs, etc.). This was the subject of Perdido Information Request 13
+issued to the Operator during the fieldwork.
+
+The identified labor does not qualify for direct chargeability under the Billing Standards settlement agreements between the
+parties, as they have not been adequately and properly documented by the Operator as activities required to comply with
+regulatory activities, and they have not been identified as Planners & Schedulers, maintenance and turnaround, rig
+administration whose job function was previously performed offshore/onsite but were relocated onshore. In addition, the
+identified personnel did not have a job title that enabled the auditor to conclude the personnel possessed special & specific
+engineering, geological, geophysical or operational skills absent proper documentation being provided by the Operator to
+support this labor classification.
+
+The Operator is requested to credit the Perdido Joint Account $52,274.74 with a reference to Chevron's audit number and
+exception number on the Joint Interest Billing.
+
+
+Operator's Reply on 27 March 2024
+
+As per the Settlement Agreements, signed in 2021 and 2022 between Shell and Chevron / BP, and the Exhibit for Agreed OTL
+Definition and Billing Standards, sections 3.A Regulatory Activity and 3.C Planners & Schedulers, maintenance and turnaround,
+rig administration, show that both of these individuals are direct chargeable, as the nature of their jobs is technical.
+
+Robert Indelicato's job profile from the staff listing shows he is a CMMS Engineer for Production Operations. As noted in the
+attached spreadsheet he is within the Maintenance, Reliability and Turnaround job group. His work either qualified for section
+3.A of the Billing Standards as regulatory work (as noted by the CFR codes) or section 3.C for maintenance and turnaround work
+related to SAP support during these activities.
+
+Tracey Champagne's job profile from the staff listing shows she is a CMMS Support for Maintenance. As noted in the attached
+spreadsheet she is within the Maintenance, Reliability and Turnaround job group. Her work either qualified for section 3.A of
+the Billing Standards as regulatory work (as noted by the CFR codes) or section 3.C for maintenance and turnaround work
+related to SAP support during these activities.
+
+No credit is due.
+EXCEPTION DETAILS
+
+Auditor Company:        CHEVRON                                   Issue Date:            May 26, 2023
+Operator Company:       Shell                                     Review Period:         01 January 2022 - 31 December 2022
+Auditor:                Jordon LaGrone                            CC/AFE:                various/various
+Error Type:             09.1 Payroll - Technical
+
+
+   ID                Description                   Gross Credit    Gross Credit      Gross Credit      Gross Credit      Type
+                                                    Requested       Accepted           Denied             Open
+ 0003     COUA - Project/OPEX Matrix -               157,928.70             0.00       157,928.70        157,928.70        M
+          CBOH – Offsite Tech – CATS Labor
+
+
+Description:
+The Operator charged the Perdido Joint Account $157,928.70 for CATS Payroll costs which appear to be coding errors. Upon
+review of Heli Logs and POBs, the employees were working at other locations.
+
+This was the subject of Perdido Information Request 12, which the Operator responded, "The majority of the charges in this IR,
+show the Perdido CATS time-writing was at a different period of time as to when the employees traveled to other assets. Their
+time-writing was for regulatory work as shown by the CFR codes noted in column K or planners and schedulers. As per the
+Settlement Agreements, signed in 2021 and 2022 between Shell and Chevron / BP, and their applicable Exhibit for Agreed OTL
+Definition and Billing Standards, sections 3.A and 3.C show that both of these categories are direct chargeable. Thanks."
+
+Upon review of the response spreadsheet provided by the Operator, there was no substantiation that the particular time
+charged was for the Joint Account and not for other properties as noted in the workpapers provided. According to the
+agreements regulatory work will be charged to the joint account provided such charges are pursuant to an approved AFE which
+the regulatory activities must be adequately and properly documented by the Operator, identifying the specific activity of the
+individuals and will reference specific program elements as described in the Federal Register. None of the AFE's being charged
+in this exception reflect this regulatory designation prescribed by the settlement agreement. In addition, no additional support
+was provided to reflect that the work being performed by the personnel identified as Planners & Schedulers as part of this
+exception was performing a function that was previously performed offshore.
+
+The Operator is requested to credit the Perdido Joint Account $157,928.70 with a reference to Chevron's audit number and
+exception number on the Joint Interest Billing.
+
+
+Operator's Reply on 27 March 2024
+As was noted in the Audit Report regarding the employees working at other locations, the support doesn't seem to be attached
+to verify this comment for the time period it was charged to the Joint Account. However, according to the Settlement
+Agreement Billing Standards, and Exhibit C II of the Unit Operating Agreement the attached personnel are direct billable. The
+Operators response remains the same as was provided during the audit field work.
+
+No credit is due.
+EXCEPTION DETAILS
+
+Auditor Company:        CHEVRON                                  Issue Date:              May 26, 2023
+Operator Company:       Shell                                    Review Period:           01 January 2022 - 31 December 2022
+Auditor:                Jordon LaGrone                           CC/AFE:                  various/various
+Error Type:             18.1 Affiliates - Timewriting
+
+
+   ID                Description                 Gross Credit      Gross Credit       Gross Credit      Gross Credit      Type
+                                                  Requested         Accepted            Denied             Open
+ 0004     COUA - OPEX Matrix - Coding                 6,418.69              0.00           6,418.69          6,418.69       M
+          Error – Affiliate Labor
+
+
+Description:
+The Operator charged the Perdido Joint Account $6,418.69 for Affiliate Labor. Upon review, the individuals charging their time
+were working on other assets such as Appomattox, Mars, and Norphlet. The Operator was requested to explain this
+discrepancy in Perdido Information Request 22 issued during the fieldwork.
+
+Upon review of the Operator response, the Auditor maintains position that the costs do not qualify for direct chargeability
+under the Billing Standards settlement agreements between the parties, as they have not been adequately and properly
+documented by the Operator as activities required to comply with regulatory activities, and they have not been identified as
+Planners & Schedulers, maintenance and turnaround, rig administration whose job function was previously performed
+offshore/onsite but were relocated onshore. In addition, the identified Affiliates did not have a job title that enabled the
+auditor to conclude the personnel possessed special & specific engineering, geological, geophysical or operational skills absent
+proper documentation being provided by the Operator to support this labor classification.
+
+The Operator is requested to credit the Perdido Joint Account $6,418.69 ($6,323.83 plus overhead of $94.86) with a reference
+to Chevron's audit number and exception number on the Joint Interest Billing.
+
+
+Operator's Reply on 27 March 2024
+During the audit fieldwork, the Operator provided the necessary information to demonstrate that these three individuals were
+direct chargeable. The job titles were provided along with a brief description, as well as the noted confirmation from their
+supervisors that they did indeed work on Perdido assets. All three individuals are direct chargeable from the Settlement
+Agreement Billing Standards under section 3.C, OTL is chargeable to the joint account for planners, schedulers, and plan
+execution supporters working on facility maintenance, well maintenance and turnaround activities. For ease of reference
+please see below.
+
+No credit is due.
+EXCEPTION DETAILS
+
+Auditor Company:        CHEVRON                                  Issue Date:              May 26, 2023
+Operator Company:       Shell                                    Review Period:           01 January 2022 - 31 December 2022
+Auditor:                Kandie Horn                              CC/AFE:                  various/various
+Error Type:             06.5 Admin / OH - Training (e.g. Soft
+                        Skill)
+
+
+   ID                Description                 Gross Credit      Gross Credit       Gross Credit      Gross Credit      Type
+                                                  Requested         Accepted            Denied             Open
+ 0005     COUA - OPEX Matrix - BOH –                  1,356.00              0.00           1,356.00          1,356.00       M
+          Admin – MTAP
+
+
+Description:
+The Operator charged the Perdido Joint Account $1,356.00 for "MTAP allocation to assets" according to the attached JADE
+lines. Upon review of the Journal Entries and support, these costs are Process Developer Coach/Trainer, Master Data
+Management, and Excel SAP costs for SAP consulting, dashboard development, and process improvements which are covered
+by overhead. This was the subject of Perdido Information Request 24.
+
+The Operator is requested to credit the Perdido Joint Account $1,356.00 ($1,200.00 plus overhead of $156.00) with a reference
+to Chevron's audit number and exception number on the Joint Interest Billing.
+
+
+
+Operator's Reply on 27 March 2024
+The charges are for MTAP (Maintenance Turnaround and Projects) across many assets in the Gulf of Mexico as noted in the
+support files. The IM CC (Information Management Competency Center) adds value to the business in capital project delivery,
+asset integrity and process safety by support of the Engineering community in Upstream Americas (UA) through delivery of an
+effective IT portfolio and IT & IM services to UA Capital Projects covering infrastructure, applications and support. The IM team
+maintains the deliverables for projects coming in from the engineering companies, these go out for Shell Review/approval
+process (PCAP) and once returned, the reactions are sent to the engineering companies for every revision for every deliverable
+for multiple projects at one time. Refer to the attached white paper for additional information.
+
+No credit is due.
+EXCEPTION DETAILS
+
+Auditor Company:        CHEVRON                                  Issue Date:           May 26, 2023
+Operator Company:       Shell                                    Review Period:        01 January 2022 - 31 December 2022
+Auditor:                Jordon LaGrone                           CC/AFE:               various/various
+Error Type:             15.0 Documentation
+
+
+   ID                Description                Gross Credit      Gross Credit    Gross Credit      Gross Credit       Type
+                                                 Requested         Accepted         Denied             Open
+ 0009     COUA - Project/OPEX Matrix -               3,170.08              0.00        3,170.08          3,170.08       M
+          Documentation - IQN Timecards
+
+
+Description:
+During fieldwork, Perdido Information Request 27 was issued to the Operator requesting them to provide IQN timecards for the
+contractors so that their compliance with the COUA, Settlement Agreement, and other agreements could be determined. The
+Operator did not respond to the Perdido Information Request at the end of fieldwork.
+
+The Operator is requested to provide the documentation or credit the Perdido Joint Account $3,170.08 ($3,123.23 plus
+overhead of $46.85) with a reference to Chevron's audit number and exception number on the Joint Interest Billing.
+
+
+Operator's Reply on 27 March 2024
+Please see attached for the IQN details as requested by the Auditor.
+
+No credit is due.
+EXCEPTION DETAILS
+
+Auditor Company:          CHEVRON                                    Issue Date:              May 26, 2023
+Operator Company:         Shell                                      Review Period:           01 January 2022 - 31 December 2022
+Auditor:                  Jordon LaGrone                             CC/AFE:                  various/various
+Error Type:               09.1 Payroll - Technical
+
+
+   ID                 Description                    Gross Credit     Gross Credit       Gross Credit        Gross Credit       Type
+                                                      Requested        Accepted             Denied               Open
+ 0011      COUA - Project/OPEX Matrix -               2,009,193.63             0.00       2,009,193.63        2,009,193.63       M
+           CBOH – Offsite Tech – CATS Labor
+
+
+Description:
+The Operator charged the Perido Joint Account $2,009,196.63 for CATS Payroll costs which are not chargeable under the terms
+of the BP/Chevron Settlement Agreements.
+
+The Operator was requested to explain these charges in Perdido Information Request 14, to which they responded, "Upon
+review of the spreadsheet and information provided, it classifies personnel according to the work order/cost object/posting
+object description. These cost object descriptions are part of SAP master data created when the cost object is set up; i.e. it is
+the "description" field within SAP.
+
+This master data does not provide a description of the specific activity performed for the Joint Account, nor an indication that
+the individual performed work on behalf of the Joint Account. For example, if the individual timewriter was actually spending
+an increment as small as 0.02HR of time (1.2 minutes) working on an activity for the Joint Account, as it may not be possible to
+spend such an infinitesimal amount of time working on behalf of the Joint Account."
+
+According to the agreements regulatory work will be charged to the joint account provided such charges are pursuant to an
+approved AFE which the regulatory activities must be adequately and properly documented by the Operator, identifying the
+specific activity of the individuals and will reference specific program elements as described in the Federal Register. None of
+the AFE's being charged in this exception reflect this regulatory designation prescribed by the settlement agreement. In
+addition, no additional support was provided to reflect that the work being performed by the personnel identified as Planners
+& Schedulers as part of this exception were performing a function that was previously performed offshore.
+
+The Operator is requested to credit the Perdido Joint Account $2,009,193.63 ($2,008,857.42 plus overhead of $336.21) with a
+reference to Chevron's audit number and exception number on the Joint Interest Billing.
+
+
+Operator's Reply on 27 March 2024
+As per the Auditors calculations, the individuals identified in this exception are for time-writing charges for Perdido. The
+Operator has polled the individuals or their managers to understand their nature of responsibilities. Information obtained are
+shown as attached (refer to the tab titled: Operator Response) to further demonstrate that they are fulfilling either operational,
+environmental, maintenance or well HSSE duties.
+
+As per the Settlement Agreements, signed in 2021 and 2022 between Shell and Chevron / BP, and the Exhibit for Agreed OTL
+Definition and Billing Standards, the nature of their roles is technical. Their work either qualified for section 3.A of the Billing
+Standards as regulatory work (as noted by the CFR codes) or section 3.C for facility or well maintenance operations.
+
+No credit is due.
+EXCEPTION DETAILS
+
+Auditor Company:            CHEVRON                             Issue Date:              May 26, 2023
+Operator Company:           Shell                               Review Period:           01 January 2022 - 31 December 2022
+Auditor:                    Kandie Horn                         CC/AFE:                  various/various
+Error Type:                 01.0 Coding Error
+
+
+   ID                 Description               Gross Credit      Gross Credit      Gross Credit       Gross Credit      Type
+                                                 Requested         Accepted           Denied              Open
+ 0012     Coding Error – Grand Isle                17,551.00         11,165.00           6,386.00         17,551.00       M
+          Shipyard Inc
+
+
+Description:
+The Perdido Joint Account received charges for Grand Isle Shipyard Inc. Included in the charges were items for which the
+support indicate are not related to the Joint Account. Per the Operators response on Perdido Information Request 39, "The
+amount of $11,000 with Track ID # 5564880 is in the process of being transferred to a different asset, therefore no backup has
+been provided." Additionally, support for TRACK:5431852, TRACK:5431842, TRACK:5431844, TRACK:5431846, and
+TRACK:5431850 indicate Mars as the asset receiving services, not the joint account.
+
+The Operator is requested to credit the Perdido Joint Account $17,551.00 ($17,291.63 plus overhead of $259.37) with a
+reference to Chevron's audit number and exception number on the Joint Interest Billing.
+
+
+Operator's Reply on 27 March 2024
+Part 1: A transfer was posted to the Joint Account on January 11, 2024 with SAP document # 5004475775 in the amount of
+$11,000.00. Please see screen shot below.
+
+Part 2: The TRACK team noted that there was a slight glitch with the "area ID" field when these four remaining entries were
+pulled into the system. However, it was confirmed that the network # 30325589 was correct, which is a Perdido network.
+
+No further credit is due.
+
+Part 1 screenshot:
+Part 2 screenshots:
+
+
+
+
+                 Date    Amount               Reference No.
+                 01/24            11,000.00    5004475775
+EXCEPTION DETAILS
+
+Auditor Company:        CHEVRON                                Issue Date:             May 26, 2023
+Operator Company:       Shell                                  Review Period:          01 January 2022 - 31 December 2022
+Auditor:                Kristin Rose                           CC/AFE:                 C.US.PER.FI.20.004.1230A/Perdido
+                                                                                       Lifeboat Hook Modifications Proj
+Error Type:             08.1 Transportation - Boats
+
+
+   ID                Description               Gross Credit      Gross Credit      Gross Credit      Gross Credit       Type
+                                                Requested         Accepted           Denied             Open
+ 0014     Coding Error – Allocation Error -       47,251.94               0.00        47,251.94         47,251.94        M
+          Joshua Candies - Voyage
+          20221054
+
+
+Description:
+The Operator charged WBS C.US.PER.FI.20.004.1230A (Perdido Lifeboat Hook Modifications Proj) for Joshua Candies Voyage
+20221054 from August 6-11, 2022. A review of the marine voyage report and the boat logs showed approximately 25% of the
+allocation to the above WBS belongs to the Auger asset. In addition to the allocation error for boat usage of $23,362.34 and
+boat fuel of $11,076.20, the associated standby and shorebase allocations totaled $12,115.10, as detailed on the attached
+worksheet.
+
+The Operator is requested to credit the Perdido Joint Account $47,251.94 ($46,553.64 plus overhead of $698.30) with a
+reference to Chevron's audit number and exception number on the Joint Interest Billing.
+
+
+Operator's Reply on 27 March 2024
+As per the Supply Chain Specialist, the total hours charged of the Joshua Candies vessel was 111.00hrs for voyage 20221054,
+out of which 102.93hrs were charged to Perdido, 0.57hrs were charged to Auger and 7.50hrs to the Shell stand by code. Based
+on the voyage report, the vessel went to Perdido for the Lifeboat Hook Modifications then stopped at Auger to wait on weather
+on the way back to Port with no activity being performed at Auger.
+
+No credit is due.
+

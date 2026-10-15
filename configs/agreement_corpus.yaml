@@ -1,0 +1,261 @@
+version: 2
+
+# Canonical asset names and the directory/name variants seen in the exception corpus. Party-specific
+# Great White variants resolve to their explicit document scopes below.
+assets:
+  great_white:
+    aliases:
+      - Great White
+      - GreatWhite
+      - GW
+  great_white_bp_only:
+    aliases:
+      - GW BP
+      - Great White BP
+      - Great White BP Only
+      - Greatwhite - BP only
+      - GreatWhite - BP only
+      - Great White (BP)
+      - Great White (BP Only)
+  great_white_chevron_only:
+    aliases:
+      - GW Chevron
+      - Great White Chevron
+      - Great White Chevron Only
+      - GreatWhite - Chevron only
+      - Great white (Chevron)
+      - Great White (Chevron Only)
+  perdido:
+    aliases:
+      - Perdido
+      - Perdido Regional Host
+      - Perdido Host
+  mars:
+    aliases:
+      - Mars
+      - Mars et al
+      - Mars Corridor
+  tobago:
+    aliases:
+      - Tobago
+  silvertip:
+    aliases:
+      - Silvertip
+  ursa:
+    aliases:
+      - Ursa
+  europa:
+    aliases:
+      - Europa
+  crosby:
+    aliases:
+      - Crosby
+  na_kika:
+    aliases:
+      - Na kika
+  appomattox:
+    aliases:
+      - Appo
+      - Appomattox
+  sparta:
+    aliases:
+      - Sparta
+  vito:
+    aliases:
+      - Vito
+  whale:
+    aliases:
+      - Whale
+  olympus:
+    aliases:
+      - Olympus
+
+documents:
+  - document_id: great_white_uoa
+    relative_path: Perdido Area - UOA, COUA, Settlement Agreement/C00015494-000 - UNIT OPERATING AGREEMENT_.pdf
+    document_name: Great White Unit Operating Agreement
+    document_type: UOA
+    legal_track: great_white_shared_uoa
+    asset_scopes: [great_white, great_white_bp_only, great_white_chevron_only]
+    party_scope: [Shell, BP, Chevron]
+    date_format: MM/DD/YYYY
+    active_start_date: 10/01/2007
+    active_end_date:
+
+  - document_id: perdido_coua
+    relative_path: Perdido Area - UOA, COUA, Settlement Agreement/C00015501-000 - CONSTRUCTION OPERATING & UTILIZATION AGM_.pdf
+    document_name: Perdido Regional Host Construction, Operating and Utilization Agreement
+    document_type: COUA
+    legal_track: perdido_shared_coua
+    asset_scopes: [perdido, great_white, great_white_chevron_only, tobago, silvertip]
+    party_scope: [Shell, Chevron]
+    date_format: MM/DD/YYYY
+    active_start_date: 04/01/2006
+    active_end_date:
+
+  - document_id: chevron_2019_settlement
+    relative_path: Perdido Area - UOA, COUA, Settlement Agreement/C00025092-001 _ 2019 CVX GOM SETTLEMENT AGREEMENT.pdf
+    document_name: 2019 Chevron GOM Settlement Agreement
+    document_type: Settlement Agreement
+    legal_track: chevron_settlement
+    asset_scopes: [perdido, great_white, great_white_chevron_only, tobago, silvertip]
+    party_scope: [Shell, Chevron]
+    date_format: MM/DD/YYYY
+    active_start_date: 01/01/2019
+    active_end_date:
+
+  - document_id: perdido_gw_attestation
+    relative_path: Perdido Area - UOA, COUA, Settlement Agreement/Perdido GW Attestation Executed Settlement Docs.pdf
+    document_name: Perdido and Great White Settlement and Attestation Documents
+    document_type: Settlement Agreement
+    legal_track: joint_settlement_attestation
+    asset_scopes: [great_white, great_white_bp_only, great_white_chevron_only]
+    party_scope: [Shell, BP, Chevron]
+    date_format: MM/DD/YYYY
+    active_start_date: 01/01/2013
+    active_end_date:
+
+  - document_id: tobago_uoa
+    relative_path: Perdido Area - UOA, COUA, Settlement Agreement/Tobago/C00015548-000 - TOBAGO UNIT AGREEMENT (INCLUDES UOA)_.pdf
+    document_name: Tobago Unit Operating Agreement
+    document_type: UOA
+    legal_track: tobago_shared_uoa
+    asset_scopes: [tobago]
+    party_scope: [Shell, Chevron, Union Oil, Nexen]
+    date_format: MM/DD/YYYY
+    active_start_date: 11/01/2006
+    active_end_date:
+
+  - document_id: silvertip_joa
+    relative_path: Perdido Area - UOA, COUA, Settlement Agreement/Silvertip/C00015520-000 - JOINT OPERATING AGREEMENT - SILVERTIP.pdf
+    document_name: Silvertip Joint Operating Agreement
+    document_type: JOA
+    legal_track: silvertip_shared_joa
+    asset_scopes: [silvertip]
+    party_scope: [Shell, Chevron]
+    date_format: MM/DD/YYYY
+    active_start_date: 01/01/1999
+    active_end_date:
+
+  - document_id: silvertip_joa_exhibits
+    relative_path: Perdido Area - UOA, COUA, Settlement Agreement/Silvertip/C00015520_000_JOINT_OPERATING_AGREEMENT_Silvertip_Exhibits.pdf
+    document_name: Silvertip Joint Operating Agreement Exhibits
+    document_type: JOA Exhibit
+    legal_track: silvertip_shared_joa
+    asset_scopes: [silvertip]
+    party_scope: [Shell, Chevron]
+    date_format: MM/DD/YYYY
+    active_start_date: 01/01/1999
+    active_end_date:
+
+  - document_id: mars_1992_uoa_amendment
+    relative_path: Ursa Mars & Great White - UOA, Settlement Agreement/1992 UOA Amendment.pdf
+    document_name: Amendment to Mars Unit Operating Agreement - Mississippi Canyon 807 Unit
+    document_type: UOA Amendment
+    legal_track: mars_shared_uoa
+    asset_scopes: [mars]
+    party_scope: [Shell, BP]
+    date_format: MM/DD/YYYY
+    active_start_date: 08/01/1992
+    active_end_date:
+
+  - document_id: bp_2018_otl_settlement
+    relative_path: Ursa Mars & Great White - UOA, Settlement Agreement/SOI-BP Settlement Agreement (Fully Executed 19 Dec. 2018) Final signed (1).pdf
+    document_name: 2018 Shell-BP Settlement Agreement
+    document_type: Settlement Agreement
+    legal_track: bp_otl_settlement
+    # The definitions list Mars, Ursa, and Europa as Applicable Operating Agreements.
+    asset_scopes: [mars, ursa, europa]
+    party_scope: [Shell, BP]
+    date_format: MM/DD/YYYY
+    active_start_date: 12/19/2018
+    active_end_date:
+
+  - document_id: bp_2019_rigs_settlement
+    relative_path: Ursa Mars & Great White - UOA, Settlement Agreement/SOI BP 2019 Settlement Agreement (Fully Executed) Rigs.pdf
+    document_name: 2019 Shell-BP Settlement Agreement - Rigs and Related Disputes
+    document_type: Settlement Agreement
+    legal_track: bp_rigs_settlement
+    # The defined Applicable Operating Agreements include Europa and Ursa as well as the prior scopes.
+    asset_scopes: [mars, great_white, perdido, ursa, europa]
+    party_scope: [Shell, BP]
+    date_format: MM/DD/YYYY
+    active_start_date: 12/01/2019
+    active_end_date:
+
+  - document_id: bp_2008_audit_settlement
+    relative_path: Ursa Mars & Great White - UOA, Settlement Agreement/Settlement Agreement Executed1.pdf
+    document_name: 2008 Phase I Audit Exceptions Phase ii Billing Disputes
+    document_type: Settlement Agreement
+    legal_track: bp_2008_audit_settlement
+    asset_scopes: [mars, ursa, europa]
+    party_scope: [Shell, BP]
+    date_format: MM/DD/YYYY
+    active_start_date: 09/01/1992
+    active_end_date:
+
+  - document_id: bp_2016_settlement
+    relative_path: Ursa Mars & Great White - UOA, Settlement Agreement/BP Shell Settlement Agreement (BP Executed 11.29.2016).pdf
+    document_name: 2016 Settlement Agreement
+    document_type: Settlement Agreement
+    legal_track: bp_2016_settlement
+    asset_scopes: [mars, ursa, europa]
+    party_scope: [Shell, BP]
+    date_format: MM/DD/YYYY
+    active_start_date: 11/29/2016
+    active_end_date:
+
+  - document_id: bp_2023_audit_settlement
+    relative_path: Ursa Mars & Great White - UOA, Settlement Agreement/BP-Shell Audit Settlement Agreement March 2024 (002).pdf
+    document_name: 2023 Settlement Agreement Audit Claims 2015
+    document_type: Settlement Agreement
+    legal_track: bp_2023_audit_settlement
+    asset_scopes: [mars, ursa, crosby, na_kika]
+    party_scope: [Shell, BP]
+    date_format: MM/DD/YYYY
+    active_start_date: 12/15/2023
+    active_end_date:
+
+  - document_id: bp_2021_settlement
+    relative_path: Ursa Mars & Great White - UOA, Settlement Agreement/2021 BP Settlement Agreement.pdf
+    document_name: 2021 BP Settlement Agreement
+    document_type: Settlement Agreement
+    legal_track: joint_2021_settlement
+    asset_scopes: [mars, great_white, perdido, ursa, europa]
+    party_scope: [Shell, BP, Chevron]
+    date_format: MM/DD/YYYY
+    active_start_date: 02/01/2022
+    active_end_date:
+
+  - document_id: rig_usage_agreement
+    relative_path: Perdido Area - UOA, COUA, Settlement Agreement/Rig Usage Agreement.pdf
+    document_name: Rig Usage Agreement
+    document_type: Usage Agreement
+    legal_track: rig_usage_agreement
+    asset_scopes: [perdido, great_white, great_white_chevron_only, tobago, silvertip]
+    party_scope: [Shell, BP, Chevron]
+    date_format: MM/DD/YYYY
+    active_start_date: 06/01/2010
+    active_end_date:
+
+  - document_id: great_white_joa
+    relative_path: Perdido Area - UOA, COUA, Settlement Agreement/Great White/great white joa.pdf
+    document_name: great white joa
+    document_type: JOA
+    legal_track: great_white_shared_joa
+    asset_scopes: [great_white, great_white_bp_only, great_white_chevron_only]
+    party_scope: [Shell, BP, Chevron]
+    date_format: MM/DD/YYYY
+    active_start_date: 12/01/1998
+    active_end_date:
+
+  - document_id: tobago_interconnect
+    relative_path: Perdido Area - UOA, COUA, Settlement Agreement/Tobago/Tobago Interconnect Agmt.pdf
+    document_name: Tobago Interconnect Agmt
+    document_type: Interconnect Agreement
+    legal_track: tobago_interconnect
+    asset_scopes: [tobago]
+    party_scope: [Shell, CNOOC, Chevron, Unocal]
+    date_format: MM/DD/YYYY
+    active_start_date: 03/07/2006
+    active_end_date:

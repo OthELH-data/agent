@@ -1,0 +1,27 @@
+# Standalone exhibit-evidence explainer — runtime dependencies.
+anthropic>=0.40.0  # native ICA path (LLM_PROVIDER=ica) — Anthropic /v1/messages via base_url; measured against SDK 0.75.0
+langchain-openai>=0.2.0  # Azure path (LLM_PROVIDER=azure) — AzureChatOpenAI
+pymupdf>=1.24.0
+openpyxl>=3.1.0
+pyxlsb>=1.0.10  # read binary .xlsb exhibits (openpyxl handles only .xlsx/.xlsm)
+xlrd>=2.0.1    # read legacy .xls (BIFF) exhibits; xlrd 2.x reads .xls only
+pydantic>=2.7.0
+python-dotenv>=1.0.0
+pyyaml>=6.0        # shared orchestration config controls whether workbook parsing is enabled
+tiktoken>=0.7.0  # FALLBACK token estimator only (Azure tiers, offline); ica records the gateway's own usage
+
+# Invoice OCR (scanned invoice PDFs). REQUIRES the tesseract engine installed separately:
+#   macOS:  brew install tesseract
+#   Debian: apt-get install tesseract-ocr
+# Without the tesseract binary, scanned invoices are flagged extraction_method="empty" (with an
+# explanatory note) rather than silently dropped; born-digital invoices still extract via PyMuPDF.
+pytesseract>=0.3.10
+pillow>=10.0.0
+
+# SharePoint output backend (OUTPUT_TARGET=sharepoint). Only needed when uploading to SharePoint;
+# the local backend works without these. Auth is MSAL device-code flow.
+Office365-REST-Python-Client>=2.5.0
+msal>=1.28.0
+
+# Azure OpenAI provider (LLM_PROVIDER=azure) uses AzureChatOpenAI from langchain-openai above and
+# authenticates with AZURE_OPENAI_API_KEY.

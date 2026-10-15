@@ -1,0 +1,223 @@
+schema_version: 1
+
+extractor:
+  hooks:
+    budget:
+      enabled: true
+      intercepts:
+        - structured_call
+        - text_call
+      parameters:
+        scope: rebuttal_cycle
+        limit_usd: 7.00
+        block_when_pricing_unavailable: true
+
+labor:
+  hooks:
+    budget:
+      enabled: true
+      intercepts:
+        - structured_call
+        - text_call
+      parameters:
+        scope: rebuttal_cycle
+        limit_usd: 7.00
+        block_when_pricing_unavailable: true
+
+    verify_evidence:
+      ED-01:
+        enabled: true
+        detector: labor_ledger
+        evidence_labels:
+          ledger: proper JADE or general-ledger extract with line-item charge detail
+        outcomes:
+          missing: deny_missing_evidence
+          unreadable: needs_evidence_unreadable
+
+      ED-03:
+        enabled: true
+        detector: location_logs
+        evidence_labels:
+          pob: personnel-on-board records for the charge period
+          heli: helicopter manifests or flight logs for the charge period
+        outcomes:
+          missing: deny_missing_evidence
+          unreadable: needs_evidence_unreadable
+
+      ED-04:
+        enabled: true
+        detector: shell_invoice_prerequisite
+        evidence_labels:
+          shell_invoice: a Shell invoice supporting the request for third-party invoice documentation
+        outcomes:
+          missing: deny_missing_evidence
+          unreadable: needs_evidence_unreadable
+
+      ED-05:
+        enabled: true
+        detector: hierarchy_support
+        evidence_labels:
+          hierarchy: hierarchy-level details for the questioned personnel
+        outcomes:
+          missing: deny_missing_evidence
+          unreadable: needs_evidence_unreadable
+
+    jade_analyzer:
+      ED-02:
+        enabled: true
+        detector: jade_amount_reconciliation
+        reason: JADE/general-ledger amounts do not reconcile to the auditor's stated amount.
+        outcomes:
+          mismatch: deny_jade_amount_mismatch
+
+    chargeability:
+      rules:
+        GR-01:
+          all: {mcoh: [true], role_status: [technical]}
+          decision: build_rebuttal
+          disposition: deny
+          outcome: "Treat as chargeable; deny the claimed amount."
+        GR-02:
+          all: {mcoh: [false], location_status: [onsite], role_status: [technical], supervision_status: [not_above_first_level]}
+          decision: build_rebuttal
+          disposition: deny
+          outcome: "Treat as chargeable; deny the claimed amount."
+        GR-03:
+          all: {mcoh: [false], location_status: [onsite], role_status: [non_technical], supervision_status: [above_first_level]}
+          decision: accept_exception
+          disposition: accept
+          outcome: "Treat as not chargeable; grant the claimed or partial amount."
+        GR-04:
+          all: {mcoh: [false], location_status: [onsite], role_status: [non_technical], supervision_status: [not_above_first_level]}
+          decision: build_rebuttal
+          disposition: deny
+          outcome: "Treat as chargeable; deny the claimed amount."
+        GR-05:
+          all: {mcoh: [false], location_status: [offsite], role_status: [technical], supervision_status: [not_above_first_level]}
+          decision: build_rebuttal
+          disposition: deny
+          outcome: "Treat as chargeable; deny the claimed amount."
+        GR-06:
+          all: {mcoh: [false], location_status: [offsite], role_status: [non_technical]}
+          decision: accept_exception
+          disposition: accept
+          outcome: "Treat as not chargeable; grant the claimed or partial amount."
+
+        SE-03:
+          all: {job_profile_status: [no_match]}
+          decision: human_review
+          disposition: needs_evidence
+          outcome: "Defer; clarify job profile and descriptions."
+        SE-04:
+          all: {job_profile_status: [multiple_close]}
+          decision: human_review
+          disposition: needs_evidence
+          outcome: "Defer; clarify the appropriate job profile."
+        SE-05:
+          all: {supervision_record_status: [missing]}
+          decision: human_review
+          disposition: needs_evidence
+          outcome: "Defer; questioned individual is not in the staff listing."
+        SE-06:
+          all: {mcoh: [true], legal_chargeability_basis: [true]}
+          decision: build_rebuttal
+          disposition: deny
+          outcome: "Treat as chargeable; deny the claimed amount."
+        SE-07:
+          all: {mcoh: [true], legal_chargeability_basis: [false]}
+          decision: accept_exception_with_human_review
+          disposition: needs_evidence
+          outcome: "Treat as not chargeable; grant the claimed or partial amount after review of the credit."
+        SE-08:
+          all: {mcoh: [true], legal_chargeability_basis: [null], precedence_status: [unavailable_or_unclear]}
+          decision: human_review
+          disposition: needs_evidence
+          outcome: "Defer for business confirmation or outreach on technicality."
+        SE-09:
+          all: {mcoh: [true], legal_chargeability_basis: [null], precedence_status: [supports_chargeability]}
+          decision: build_rebuttal
+          disposition: deny
+          outcome: "Treat as chargeable; deny the claimed amount."
+        SE-10:
+          all: {mcoh: [true], legal_chargeability_basis: [null], precedence_status: [supports_non_chargeability]}
+          decision: accept_exception_with_human_review
+          disposition: needs_evidence
+          outcome: "Treat as not chargeable; grant the claimed or partial amount after review of the credit."
+        SE-11:
+          all: {mcoh: [true], role_status: [non_technical], ipt_status: [ipt], precedence_status: [supports_chargeability, unavailable_or_unclear]}
+          decision: build_rebuttal
+          disposition: deny
+          outcome: "Treat as chargeable; deny the claimed amount."
+        SE-12:
+          all: {mcoh: [true], role_status: [non_technical], ipt_status: [non_ipt], precedence_status: [supports_non_chargeability, unavailable_or_unclear]}
+          decision: accept_exception_with_human_review
+          disposition: needs_evidence
+          outcome: "Treat as not chargeable; grant the claimed or partial amount after review of the credit."
+        SE-13:
+          all: {mcoh: [false], location_status: [onsite], legal_chargeability_basis: [true]}
+          decision: build_rebuttal
+          disposition: deny
+          outcome: "Treat as chargeable; deny the claimed amount."
+        SE-14:
+          all: {mcoh: [false], location_status: [onsite], legal_chargeability_basis: [false]}
+          decision: accept_exception_with_human_review
+          disposition: needs_evidence
+          outcome: "Treat as not chargeable; grant the claimed or partial amount after review of the credit."
+        SE-15:
+          all: {mcoh: [false], location_status: [onsite], legal_chargeability_basis: [null], precedence_status: [unavailable_or_unclear]}
+          decision: human_review
+          disposition: needs_evidence
+          outcome: "Defer; technicality cannot be determined."
+        SE-16:
+          all: {mcoh: [false], location_status: [onsite], legal_chargeability_basis: [null], precedence_status: [supports_chargeability]}
+          decision: build_rebuttal
+          disposition: deny
+          outcome: "Treat as chargeable; deny the claimed amount."
+        SE-17:
+          all: {mcoh: [false], location_status: [onsite], legal_chargeability_basis: [null], precedence_status: [supports_non_chargeability]}
+          decision: accept_exception_with_human_review
+          disposition: needs_evidence
+          outcome: "Treat as not chargeable; grant the claimed or partial amount after review of the credit."
+        SE-18:
+          all: {mcoh: [false], location_status: [onsite], role_status: [technical], supervision_status: [above_first_level], exempt_role_status: [non_exempt], precedence_status: [supports_non_chargeability, unavailable_or_unclear]}
+          decision: accept_exception_with_human_review
+          disposition: needs_evidence
+          outcome: "Treat as not chargeable; grant the claimed or partial amount after review of the credit."
+        SE-19:
+          all: {mcoh: [false], location_status: [onsite], role_status: [technical], supervision_status: [above_first_level], exempt_role_status: [exempt], precedence_status: [supports_chargeability, unavailable_or_unclear]}
+          decision: build_rebuttal
+          disposition: deny
+          outcome: "Treat as chargeable; deny the claimed amount."
+        SE-20:
+          all: {mcoh: [false], location_status: [offsite], legal_chargeability_basis: [true]}
+          decision: build_rebuttal
+          disposition: deny
+          outcome: "Treat as chargeable; deny the claimed amount."
+        SE-21:
+          all: {mcoh: [false], location_status: [offsite], legal_chargeability_basis: [false], precedence_status: [supports_chargeability]}
+          decision: build_rebuttal
+          disposition: deny
+          outcome: "Treat as chargeable; deny the claimed amount."
+        SE-22:
+          all: {mcoh: [false], location_status: [offsite], legal_chargeability_basis: [null], precedence_status: [supports_non_chargeability]}
+          decision: accept_exception_with_human_review
+          disposition: needs_evidence
+          outcome: "Treat as not chargeable; grant the claimed or partial amount after review of the credit."
+        SE-23:
+          all: {mcoh: [false], location_status: [offsite], legal_chargeability_basis: [null], precedence_status: [unavailable_or_unclear]}
+          decision: human_review
+          disposition: needs_evidence
+          outcome: "Defer; technicality cannot be determined."
+        SE-24:
+          all: {mcoh: [false], location_status: [offsite], role_status: [technical], supervision_status: [above_first_level], ipt_status: [non_ipt], exempt_role_status: [non_exempt], precedence_status: [supports_non_chargeability, unavailable_or_unclear]}
+          decision: accept_exception_with_human_review
+          disposition: needs_evidence
+          outcome: "Treat as not chargeable; grant the claimed or partial amount after review of the credit."
+        SE-25:
+          all: {mcoh: [false], location_status: [offsite], role_status: [technical], supervision_status: [above_first_level], precedence_status: [supports_chargeability, unavailable_or_unclear]}
+          any:
+            - {ipt_status: [ipt]}
+            - {exempt_role_status: [exempt]}
+          decision: build_rebuttal
+          disposition: deny
+          outcome: "Treat as chargeable; deny the claimed amount."

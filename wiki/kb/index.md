@@ -1,0 +1,217 @@
+# JV Audit Precedent Wiki — Index
+
+_Query layer reads this FIRST, then drills into relevant pages._
+
+## Exception types
+- [[types/above-first-level-supervision]] above-first-level-supervision — seen 1x, partial
+- [[types/affiliate-labor]] affiliate-labor — seen 1x, denied
+- [[types/coding-allocation]] coding-allocation — seen 1x, deny
+- [[types/contractor]] contractor — seen 1x, accepted
+- [[types/documentation]] documentation — seen 1x, denied
+- [[types/offsite-technical-labor]] offsite-technical-labor — seen 1x, partial_credit
+- [[types/offsite-technical-roles-function-not-location]] offsite-technical-roles-function-not-location — seen 1x, deny
+- [[types/otl]] otl — seen 1x, denied
+- [[types/otl-cboh]] otl-cboh — seen 1x, deny
+- [[types/overhead-admin]] overhead-admin — seen 1x, denied
+- [[types/payroll-labor]] payroll-labor — seen 1x, partial
+- [[types/payroll-technical]] payroll-technical — seen 1x, deny
+- [[types/regulatory-compliance-otl]] regulatory-compliance-otl — seen 1x, deny
+- [[types/technical-design-drafting-direct-charge]] technical-design-drafting-direct-charge — seen 1x, deny
+- [[types/technical-payroll-regulatory-or-maintenance-chargeability]] technical-payroll-regulatory-or-maintenance-chargeability — seen 1x, denied
+- [[types/technical-project-labor-not-administrative-overhead]] technical-project-labor-not-administrative-overhead — seen 1x, deny
+- [[types/transportation-marine]] transportation-marine — seen 1x, denied
+
+## Clauses
+- [[clauses/2019-settlement-agreement-technical-roles-function-location]] 2019-settlement-agreement-technical-roles-function-location
+- [[clauses/accounting-procedure-exhibit-c-iii-overhead]] accounting-procedure-exhibit-c-iii-overhead
+- [[clauses/accounting-procedure-exhibit-c-section-iii-overhead-paragrap]] accounting-procedure-exhibit-c-section-iii-overhead-paragrap
+- [[clauses/accounting-procedure-uoa-2007-technical-labor]] accounting-procedure-uoa-2007-technical-labor
+- [[clauses/attachment-1-section-2-technical-employees]] attachment-1-section-2-technical-employees
+- [[clauses/attachment-1-section-3-otl-chargeable-activities]] attachment-1-section-3-otl-chargeable-activities
+- [[clauses/attachment-1-section-3a-regulatory-activity]] attachment-1-section-3a-regulatory-activity
+- [[clauses/attachment-1-section-3b-feasibility-project-studies]] attachment-1-section-3b-feasibility-project-studies
+- [[clauses/attachment-1-section-3c-planners-schedulers-relocated-onshor]] attachment-1-section-3c-planners-schedulers-relocated-onshor
+- [[clauses/billing-standards-1-d-ii-remote-technology-centers]] billing-standards-1-d-ii-remote-technology-centers
+- [[clauses/billing-standards-3-1-exhibit-d-section-3c]] billing-standards-3-1-exhibit-d-section-3c
+- [[clauses/billing-standards-3-a-regulatory-activity]] billing-standards-3-a-regulatory-activity
+- [[clauses/billing-standards-3-a-regulatory-work]] billing-standards-3-a-regulatory-work
+- [[clauses/billing-standards-3-c-facility-well-maintenance]] billing-standards-3-c-facility-well-maintenance
+- [[clauses/billing-standards-3-c-maintenance-turnaround]] billing-standards-3-c-maintenance-turnaround
+- [[clauses/billing-standards-3a-regulatory-activity]] billing-standards-3a-regulatory-activity
+- [[clauses/billing-standards-section-3-a-regulatory-work]] billing-standards-section-3-a-regulatory-work
+- [[clauses/billing-standards-section-3-c-facility-well-maintenance]] billing-standards-section-3-c-facility-well-maintenance
+- [[clauses/billing-standards-section-3a-regulatory-activity]] billing-standards-section-3a-regulatory-activity
+- [[clauses/chevron-shell-billing-standards-2019-design-drafting]] chevron-shell-billing-standards-2019-design-drafting
+- [[clauses/confidential-settlement-agreement-clause-3-7]] confidential-settlement-agreement-clause-3-7
+- [[clauses/copas-mfi-21-overhead-principles]] copas-mfi-21-overhead-principles
+- [[clauses/copas-mfi-21-section-ii-b-operations-support]] copas-mfi-21-section-ii-b-operations-support
+- [[clauses/copas-mfi-21-section-ii-b-overhead-principles]] copas-mfi-21-section-ii-b-overhead-principles
+- [[clauses/copas-mfi-38-introduction]] copas-mfi-38-introduction
+- [[clauses/copas-mfi-38-introduction-page-3]] copas-mfi-38-introduction-page-3
+- [[clauses/copas-mfi-38-materials-manual-page-15-j]] copas-mfi-38-materials-manual-page-15-j
+- [[clauses/copas-mfi-44]] copas-mfi-44
+- [[clauses/copas-mfi-44-field-computer-communications-systems]] copas-mfi-44-field-computer-communications-systems
+- [[clauses/copas-mfi-44-production-control-systems]] copas-mfi-44-production-control-systems
+- [[clauses/copas-mfi-46-shorebase-facilities-and-offshore-staging-areas]] copas-mfi-46-shorebase-facilities-and-offshore-staging-areas
+- [[clauses/exhibit-c-accounting-procedure-section-iii-overhead-part-b-2]] exhibit-c-accounting-procedure-section-iii-overhead-part-b-2
+- [[clauses/exhibit-c-section-ii-15-d-affiliate-records]] exhibit-c-section-ii-15-d-affiliate-records
+- [[clauses/exhibit-c-section-iii-overhead]] exhibit-c-section-iii-overhead
+- [[clauses/exhibit-c-section-iii-overhead-1-a-2-b]] exhibit-c-section-iii-overhead-1-a-2-b
+- [[clauses/exhibit-c-section-iii-overhead-1-b-2]] exhibit-c-section-iii-overhead-1-b-2
+- [[clauses/exhibit-c-section-iii-overhead-ii]] exhibit-c-section-iii-overhead-ii
+- [[clauses/exhibit-c-section-iii-overhead-paragraph-1-b-2]] exhibit-c-section-iii-overhead-paragraph-1-b-2
+- [[clauses/exhibit-c-section-iii-overhead-paragraph-ii]] exhibit-c-section-iii-overhead-paragraph-ii
+- [[clauses/exhibit-c-section-iii-overhead-workover-wells]] exhibit-c-section-iii-overhead-workover-wells
+- [[clauses/great-white-uoa-exhibit-c-first-level-supervisors-field]] great-white-uoa-exhibit-c-first-level-supervisors-field
+- [[clauses/gw-uoa-exhibit-c-addendum-section-iii-2-b-d]] gw-uoa-exhibit-c-addendum-section-iii-2-b-d
+- [[clauses/mfi-44-production-control-systems-direct-chargeability]] mfi-44-production-control-systems-direct-chargeability
+- [[clauses/mfi-44-section-ii-c]] mfi-44-section-ii-c
+- [[clauses/mfi-44-section-ii-c-software-support]] mfi-44-section-ii-c-software-support
+- [[clauses/operating-agreement-section-iii-overhead-application-of-over]] operating-agreement-section-iii-overhead-application-of-over
+- [[clauses/operating-agreement-section-iii-overhead-development-fixed-a]] operating-agreement-section-iii-overhead-development-fixed-a
+- [[clauses/operating-agreement-section-iii-overhead-development-vs-oper]] operating-agreement-section-iii-overhead-development-vs-oper
+- [[clauses/perdido-coua-article-6-section-6-2-afes]] perdido-coua-article-6-section-6-2-afes
+- [[clauses/section-3-a-regulatory-work]] section-3-a-regulatory-work
+- [[clauses/section-3-c-facility-well-maintenance]] section-3-c-facility-well-maintenance
+- [[clauses/sems-cfr-250-1910]] sems-cfr-250-1910
+- [[clauses/settlement-agreement-3a]] settlement-agreement-3a
+- [[clauses/settlement-agreement-3c]] settlement-agreement-3c
+- [[clauses/settlement-agreement-attachment-1-section-2-technical-employ]] settlement-agreement-attachment-1-section-2-technical-employ
+- [[clauses/settlement-agreement-attachment-1-section-3-c-otl-chargeable]] settlement-agreement-attachment-1-section-3-c-otl-chargeable
+- [[clauses/settlement-agreement-attachment-1-section-3a-regulatory-acti]] settlement-agreement-attachment-1-section-3a-regulatory-acti
+- [[clauses/settlement-agreement-attachment-1-section-3b-feasibility-pro]] settlement-agreement-attachment-1-section-3b-feasibility-pro
+- [[clauses/settlement-agreement-attachment-1-section-3c-planners-schedu]] settlement-agreement-attachment-1-section-3c-planners-schedu
+- [[clauses/settlement-agreement-billing-standards]] settlement-agreement-billing-standards
+- [[clauses/settlement-agreement-billing-standards-3-6-1-scheduling-main]] settlement-agreement-billing-standards-3-6-1-scheduling-main
+- [[clauses/settlement-agreement-billing-standards-3-a-regulatory-activi]] settlement-agreement-billing-standards-3-a-regulatory-activi
+- [[clauses/settlement-agreement-billing-standards-3a]] settlement-agreement-billing-standards-3a
+- [[clauses/settlement-agreement-billing-standards-3c]] settlement-agreement-billing-standards-3c
+- [[clauses/settlement-agreement-billing-standards-exhibit-c-3-a-regulat]] settlement-agreement-billing-standards-exhibit-c-3-a-regulat
+- [[clauses/settlement-agreement-billing-standards-exhibit-c-3-c-planner]] settlement-agreement-billing-standards-exhibit-c-3-c-planner
+- [[clauses/settlement-agreement-billing-standards-exhibit-c-section-3-a]] settlement-agreement-billing-standards-exhibit-c-section-3-a
+- [[clauses/settlement-agreement-billing-standards-facility-improvement]] settlement-agreement-billing-standards-facility-improvement
+- [[clauses/settlement-agreement-billing-standards-regulatory-activities]] settlement-agreement-billing-standards-regulatory-activities
+- [[clauses/settlement-agreement-exhibit-c-2-c]] settlement-agreement-exhibit-c-2-c
+- [[clauses/settlement-agreement-exhibit-c-3-c]] settlement-agreement-exhibit-c-3-c
+- [[clauses/settlement-agreement-exhibit-c-3-c-offsite-technical-functio]] settlement-agreement-exhibit-c-3-c-offsite-technical-functio
+- [[clauses/settlement-agreement-exhibit-c-3a-regulatory-activity]] settlement-agreement-exhibit-c-3a-regulatory-activity
+- [[clauses/settlement-agreement-exhibit-c-section-2-c]] settlement-agreement-exhibit-c-section-2-c
+- [[clauses/settlement-agreement-exhibit-c-section-2c]] settlement-agreement-exhibit-c-section-2c
+- [[clauses/settlement-agreement-exhibit-c-section-3-c]] settlement-agreement-exhibit-c-section-3-c
+- [[clauses/settlement-agreement-exhibit-c-section-3-offsite-technical-l]] settlement-agreement-exhibit-c-section-3-offsite-technical-l
+- [[clauses/settlement-agreement-exhibit-c-section-3c]] settlement-agreement-exhibit-c-section-3c
+- [[clauses/settlement-agreement-section-3-5]] settlement-agreement-section-3-5
+- [[clauses/settlement-agreement-section-3-5-field-computer-communicatio]] settlement-agreement-section-3-5-field-computer-communicatio
+- [[clauses/settlement-agreement-technical-roles-function-not-location]] settlement-agreement-technical-roles-function-not-location
+- [[clauses/settlement-agreements-2021-otl-billing-standards-3-a]] settlement-agreements-2021-otl-billing-standards-3-a
+- [[clauses/settlement-agreements-2021-otl-billing-standards-3-c]] settlement-agreements-2021-otl-billing-standards-3-c
+- [[clauses/settlement-billing-standards-section-3-a-regulatory-work]] settlement-billing-standards-section-3-a-regulatory-work
+- [[clauses/settlement-billing-standards-section-3-c-facility-well-maint]] settlement-billing-standards-section-3-c-facility-well-maint
+- [[clauses/settlement-exhibit-c-section-2c]] settlement-exhibit-c-section-2c
+- [[clauses/settlement-exhibit-c-section-3c]] settlement-exhibit-c-section-3c
+- [[clauses/silvertip-joa-accounting-procedure-section-3]] silvertip-joa-accounting-procedure-section-3
+- [[clauses/unit-operating-agreement-exhibit-c-ii]] unit-operating-agreement-exhibit-c-ii
+- [[clauses/uoa-exhibit-c-accounting-procedures-section-iii]] uoa-exhibit-c-accounting-procedures-section-iii
+- [[clauses/uoa-exhibit-c-section-iii-overhead-ii]] uoa-exhibit-c-section-iii-overhead-ii
+
+## Precedents (learned facts)
+- [[precedents/above-first-level-supervision-credit]] above-first-level-supervision-credit
+- [[precedents/above-first-level-supervision-credit-labor-chargeability-gre]] above-first-level-supervision-credit-labor-chargeability-gre
+- [[precedents/above-first-level-supervision-credit-labor-chargeability-sil]] above-first-level-supervision-credit-labor-chargeability-sil
+- [[precedents/above-first-level-supervision-credit-labor-supervision-great]] above-first-level-supervision-credit-labor-supervision-great
+- [[precedents/administrative-staff-labor-burden-reversed]] administrative-staff-labor-burden-reversed
+- [[precedents/administrative-staff-labor-burden-reversed-labor-chargeabili]] administrative-staff-labor-burden-reversed-labor-chargeabili
+- [[precedents/affiliate-cost-engineer-three-wbs-already-reversed]] affiliate-cost-engineer-three-wbs-already-reversed
+- [[precedents/affiliate-labor-cost-certificate-closes-documentation-except]] affiliate-labor-cost-certificate-closes-documentation-except
+- [[precedents/affiliate-labor-invoice-description-not-determinative]] affiliate-labor-invoice-description-not-determinative
+- [[precedents/affiliate-labor-timewriting-excluded-support-period]] affiliate-labor-timewriting-excluded-support-period
+- [[precedents/allocation-support-charge-credited-with-associated-overhead]] allocation-support-charge-credited-with-associated-overhead
+- [[precedents/burden-benefits-calculation-error-net-credit-verified]] burden-benefits-calculation-error-net-credit-verified
+- [[precedents/cmms-maintenance-reliability-turnaround-technical-labor-char]] cmms-maintenance-reliability-turnaround-technical-labor-char
+- [[precedents/co-owner-specific-otl-settlement-terms]] co-owner-specific-otl-settlement-terms
+- [[precedents/commissioning-startup-support-function-chargeable-offsite]] commissioning-startup-support-function-chargeable-offsite
+- [[precedents/commissioning-startup-support-function-chargeable-offsite-la]] commissioning-startup-support-function-chargeable-offsite-la
+- [[precedents/contractor-cats-burden-credit-rate-reconciliation]] contractor-cats-burden-credit-rate-reconciliation
+- [[precedents/contractor-cats-burden-credit-rate-reconciliation-labor-burd]] contractor-cats-burden-credit-rate-reconciliation-labor-burd
+- [[precedents/contractor-cats-burden-credit-rate-reconciliation-payroll-be]] contractor-cats-burden-credit-rate-reconciliation-payroll-be
+- [[precedents/contractor-vendor-cost-over-under-no-duplicate-charge]] contractor-vendor-cost-over-under-no-duplicate-charge
+- [[precedents/contractor-vendor-cost-over-under-no-duplicate-charge-contra]] contractor-vendor-cost-over-under-no-duplicate-charge-contra
+- [[precedents/crane-maintenance-direct-chargeable-despite-administrative-l]] crane-maintenance-direct-chargeable-despite-administrative-l
+- [[precedents/development-overhead-rate-non-producing-well-abandonment-cre]] development-overhead-rate-non-producing-well-abandonment-cre
+- [[precedents/direct-automation-production-control-systems-direct-charge]] direct-automation-production-control-systems-direct-charge
+- [[precedents/direct-automation-production-control-systems-direct-charge-c]] direct-automation-production-control-systems-direct-charge-c
+- [[precedents/esp-production-equipment-operating-overhead-not-development]] esp-production-equipment-operating-overhead-not-development
+- [[precedents/esp-replacement-operating-maintenance-not-development]] esp-replacement-operating-maintenance-not-development
+- [[precedents/im-cc-mtap-project-support-chargeability]] im-cc-mtap-project-support-chargeability
+- [[precedents/im-cc-mtap-project-support-chargeability-project-support-ser]] im-cc-mtap-project-support-chargeability-project-support-ser
+- [[precedents/im-cc-mtap-project-support-chargeability-service-allocation]] im-cc-mtap-project-support-chargeability-service-allocation
+- [[precedents/information-only-afe-under-300k-not-full-afe-requirement]] information-only-afe-under-300k-not-full-afe-requirement
+- [[precedents/information-only-afe-under-300k-not-full-afe-requirement-afe]] information-only-afe-under-300k-not-full-afe-requirement-afe
+- [[precedents/joshua-mills-perdido-regulatory-scan-direct-charge]] joshua-mills-perdido-regulatory-scan-direct-charge
+- [[precedents/major-construction-first-level-supervision-direct-charge]] major-construction-first-level-supervision-direct-charge
+- [[precedents/offsite-technical-labor-descriptions-plus-agreement-support]] offsite-technical-labor-descriptions-plus-agreement-support
+- [[precedents/offsite-technical-labor-partial-credit-service-description]] offsite-technical-labor-partial-credit-service-description
+- [[precedents/offsite-technical-maintenance-planners-function-based-charge]] offsite-technical-maintenance-planners-function-based-charge
+- [[precedents/offsite-technical-roles-function-not-location-chargeable]] offsite-technical-roles-function-not-location-chargeable
+- [[precedents/offsite-technical-roles-function-not-location-chargeable-aff]] offsite-technical-roles-function-not-location-chargeable-aff
+- [[precedents/offsite-technical-roles-function-not-location-chargeable-lab]] offsite-technical-roles-function-not-location-chargeable-lab
+- [[precedents/offsite-technical-roles-function-not-location-chargeable-ot]] offsite-technical-roles-function-not-location-chargeable-ot
+- [[precedents/otl-function-not-location-proof]] otl-function-not-location-proof
+- [[precedents/otl-function-not-location-proof-chargeability-interpretation]] otl-function-not-location-proof-chargeability-interpretation
+- [[precedents/otl-function-not-location-proof-interpretive-argument-tobago]] otl-function-not-location-proof-interpretive-argument-tobago
+- [[precedents/otl-function-not-location-proof-labor-chargeability-interpre]] otl-function-not-location-proof-labor-chargeability-interpre
+- [[precedents/overhead-credit-posted-closes-overbilling]] overhead-credit-posted-closes-overbilling
+- [[precedents/overhead-credit-posted-closes-overbilling-accounting-adjustm]] overhead-credit-posted-closes-overbilling-accounting-adjustm
+- [[precedents/overhead-denied-no-charge-wbs]] overhead-denied-no-charge-wbs
+- [[precedents/payroll-burden-recalculation-requires-complete-wbs-populatio]] payroll-burden-recalculation-requires-complete-wbs-populatio
+- [[precedents/pob-scope-exclusion-helicopter-records-validate-presence]] pob-scope-exclusion-helicopter-records-validate-presence
+- [[precedents/project-management-ancillary-to-direct-chargeable-fmc-scope]] project-management-ancillary-to-direct-chargeable-fmc-scope
+- [[precedents/psp-awards-follow-timewriting-and-otl-technical-support]] psp-awards-follow-timewriting-and-otl-technical-support
+- [[precedents/recognition-service-awards-not-incentive-compensation]] recognition-service-awards-not-incentive-compensation
+- [[precedents/regulatory-compliance-otl-temporary-water-filtration-chargea]] regulatory-compliance-otl-temporary-water-filtration-chargea
+- [[precedents/regulatory-hazop-engineering-direct-chargeable]] regulatory-hazop-engineering-direct-chargeable
+- [[precedents/regulatory-hazop-engineering-direct-chargeable-regulatory-en]] regulatory-hazop-engineering-direct-chargeable-regulatory-en
+- [[precedents/regulatory-water-filtration-engineering-direct-charge]] regulatory-water-filtration-engineering-direct-charge
+- [[precedents/regulatory-water-filtration-engineering-direct-charge-labor]] regulatory-water-filtration-engineering-direct-charge-labor
+- [[precedents/rtoc-real-time-data-software-direct-billable]] rtoc-real-time-data-software-direct-billable
+- [[precedents/rtoc-real-time-data-software-direct-chargeable]] rtoc-real-time-data-software-direct-chargeable
+- [[precedents/sea-fastening-engineering-direct-charge-defense]] sea-fastening-engineering-direct-charge-defense
+- [[precedents/settlement-agreement-exhibit-c-section-reference-error]] settlement-agreement-exhibit-c-section-reference-error
+- [[precedents/settlement-exhibit-c-section-2c-technical-definition-3c-char]] settlement-exhibit-c-section-2c-technical-definition-3c-char
+- [[precedents/shorebase-operational-services-direct-charge-needs-review]] shorebase-operational-services-direct-charge-needs-review
+- [[precedents/staff-listing-controls-above-first-level-supervision-determi]] staff-listing-controls-above-first-level-supervision-determi
+- [[precedents/technical-payroll-regulatory-or-maintenance-chargeability]] technical-payroll-regulatory-or-maintenance-chargeability
+- [[precedents/technical-payroll-regulatory-or-maintenance-chargeability-af]] technical-payroll-regulatory-or-maintenance-chargeability-af
+- [[precedents/technical-payroll-regulatory-or-maintenance-chargeability-la]] technical-payroll-regulatory-or-maintenance-chargeability-la
+- [[precedents/technical-payroll-regulatory-or-maintenance-chargeability-te]] technical-payroll-regulatory-or-maintenance-chargeability-te
+- [[precedents/technical-project-labor-not-administrative-overhead]] technical-project-labor-not-administrative-overhead
+- [[precedents/technical-project-labor-not-administrative-overhead-labor-ch]] technical-project-labor-not-administrative-overhead-labor-ch
+- [[precedents/tsi-yokogawa-control-programming-software-costs]] tsi-yokogawa-control-programming-software-costs
+- [[precedents/tsi-yokogawa-control-programming-software-costs-chargeabilit]] tsi-yokogawa-control-programming-software-costs-chargeabilit
+- [[precedents/veros-esp-surveillance-data-operating-maintenance-support]] veros-esp-surveillance-data-operating-maintenance-support
+- [[precedents/wells-engineering-technical-roles-chargeable-under-billing-s]] wells-engineering-technical-roles-chargeable-under-billing-s
+- [[precedents/yokogawa-control-system-maintenance-direct-software-support]] yokogawa-control-system-maintenance-direct-software-support
+- [[precedents/zero-overhead-afe-charge-credited]] zero-overhead-afe-charge-credited
+
+## Entities
+- [[entities/allied-reliability]] allied-reliability
+- [[entities/baker-petrolite]] baker-petrolite
+- [[entities/chevron]] chevron
+- [[entities/danos-llc]] danos-llc
+- [[entities/great-white]] great-white
+- [[entities/halliburton]] halliburton
+- [[entities/hawk-bidco-us-inc]] hawk-bidco-us-inc
+- [[entities/jacobs-engineering-group]] jacobs-engineering-group
+- [[entities/keystone-engineering]] keystone-engineering
+- [[entities/perdido]] perdido
+- [[entities/scott-armature-sales-storage]] scott-armature-sales-storage
+- [[entities/silvertip]] silvertip
+- [[entities/tde-petroleum-data-solutions]] tde-petroleum-data-solutions
+- [[entities/technipfmc]] technipfmc
+- [[entities/tobago]] tobago
+- [[entities/total-system-integrators]] total-system-integrators
+- [[entities/veros-systems]] veros-systems
+- [[entities/waldemar-s-nelson-and-company]] waldemar-s-nelson-and-company
+- [[entities/worley]] worley
+- [[entities/ws-atkins]] ws-atkins
+- [[entities/yokogawa-corporation-of-america]] yokogawa-corporation-of-america

@@ -1,0 +1,35 @@
+index_in_sample,split,asset,year,exc_id,topic,site,exc,section,amount,desc
+1,test,Great White,2023,0013,Material Reconciliation,Great White,0013,OPEN EXCEPTIONS,"27,668.66","Material Reconciliation - GD004 Completions - 5.5"" Tubing"
+2,test,Great White,2024,0038,Material Reconciliation,GreatWhite,0038,OPEN EXCEPTIONS,"49,288.15",Material Reconciliation - GD-08 IEW - Rigid Lock Seal Assembly
+3,test,Great White,2024,0031,Material Reconciliation,GreatWhite,0031,OPEN EXCEPTIONS,"6,449.48",Material Reconciliation - GA021ST01 Drilling LLE - CSG 9.625
+4,test,Silvertip,2022,0017,Material Reconciliation,Silvertip,17,EXCEPTION SUMMARY,"45,573.61",Material Recon- SA005 Drilling
+5,test,Great White,2023,0090,Labor Issues,Great White,0090,OPEN EXCEPTIONS,"249,066.31",COUA - Project/OPEX Matrix - CBOH - Offsite Tech - Affiliate Labor
+6,test,Great White,2022,0047,Material Reconciliation,Great White,047,EXCEPTION SUMMARY,"238,360.87",MaterialRecon(GD006 Completion)
+7,test,Great White,2024,0018,Material Reconciliation,GreatWhite,0018,OPEN EXCEPTIONS,"103,494.05","Material Reconciliation -GWH GA017 LL Completions - Pup 4.5"""
+8,test,Great White,2025,0014,Material Reconciliation,GreatWhite,014,OPEN EXCEPTIONS,"10,867.10",Material Reconciliation - GD- 09 Drilling LLE - CSG 14.000
+9,test,Great White,2022,0024,Material Reconciliation,Great White,024,EXCEPTION SUMMARY,0.00,MaterialRecon(GA021 Drilling LLE)
+10,test,Great White,2023,0049,Material Reconciliation,Great White,0049,OPEN EXCEPTIONS,"61,668.92",Material Reconciliation - GA005 Completions LLE - Receptacle
+11,test,Silvertip,2023,0006,Labor Issues,Silvertip,0006,OPEN EXCEPTIONS,"289,560.64",CBOH - Offsite Tech - SIEP Affiliate Labor
+12,test,Great White,2025,0013,Material Reconciliation,GreatWhite,013,OPEN EXCEPTIONS,"191,378.78",Material Reconciliation - GD- 08 IE - WHEAD HSG
+13,test,Silvertip,2023,0004,Material Reconciliation,Silvertip,0004,OPEN EXCEPTIONS,"3,686.27",Materials Reconciliation - SIL SA006 Completions
+14,test,Great White,2023,0014,Material Reconciliation,Great White,0014,OPEN EXCEPTIONS,"77,423.33",Material Reconciliation - GD004 Completions - Cast Iron Bridge Plug
+15,test,Great White,2022,0033,Material Reconciliation,Great White,033,EXCEPTION SUMMARY,0.00,MaterialRecon(GD007 Deepening)
+16,test,Tobago,2025,0001,Labor Issues,Tobago,001,OPEN EXCEPTIONS,"36,662.30",CATS Labor for Employees not on POB
+17,test,Great White,2024,0032,Material Reconciliation,GreatWhite,0032,OPEN EXCEPTIONS,"10,407.97",Material Reconciliation - GA021ST01 Drilling LLE - CSG 5.500
+18,test,Great White,2025,0018,Material Reconciliation,GreatWhite,018,OPEN EXCEPTIONS,"256,141.39",Material Reconciliation - PPh 3 MNP7 Completions LLE - Various Materials
+19,test,Great White,2022,0019,Material Reconciliation,Great White,019,EXCEPTION SUMMARY,0.00,MaterialRecon(GA004 Drilling)
+20,test,Great White,2024,0070,Material Reconciliation,GreatWhite,0070,OPEN EXCEPTIONS,"129,551.88",Material Reconciliation - GD006 Completion - Wire Wrap Sand Screens 5.5
+21,test,Great White,2023,0033,Labor Issues,Great White,0033,OPEN EXCEPTIONS,"12,311.57",CBOH - Admin - CATS Labor
+22,test,Silvertip,2021,0008,Material Reconciliation,Silvertip,8,SUMMARY OF AUDIT CLAIMS,TBD,Material Reconciliation- SA006 (3.1)
+23,test,Great White,2023,0003,Labor Issues,Great White,0003,OPEN EXCEPTIONS,"47,365.25",CBOH - Offsite Tech - SIEP Affiliate Labor
+24,test,Great White,2024,0029,Material Reconciliation,GreatWhite,0029,OPEN EXCEPTIONS,"16,844.83",Material Reconciliation - GA021ST01 Drilling LLE - Float Collar 7.625
+25,test,Great White,2024,0023,Material Reconciliation,GreatWhite,0023,OPEN EXCEPTIONS,"93,076.29",Material Reconciliation - GA021ST01 Completion - Seal Assembly
+26,test,Great White,2024,0067,Material Reconciliation,GreatWhite,0067,OPEN EXCEPTIONS,"6,344.21",Material Reconciliation - GD005 Completion - TBG 3.5
+27,test,Great White,2023,0012,Material Reconciliation,Great White,0012,OPEN EXCEPTIONS,"77,259.38",Material Reconciliation - GD007 Completions - Seal Units
+28,test,Great White,2023,0044,Labor Issues,Great White,0044,OPEN EXCEPTIONS,"453,263.05",Staff Time Writing Coded Non- Billable
+29,test,Great White,2021,0010,Material Reconciliation,Great White,10,SUMMARY OF AUDIT CLAIMS,TBD,Material Recon - GD007
+30,test,Great White,2024,0016,Material Reconciliation,GreatWhite,0016,OPEN EXCEPTIONS,"24,223.70","Material Reconciliation -GWH GA017 LL Completions - Cable 1/4"" X 0.049"""
+31,test,Great White,2022,0053,Material Reconciliation,Great White,053,EXCEPTION SUMMARY,"22,932.33",MaterialRecon(GA008 Completion) -SubBottom
+32,test,Silvertip,2023,0010,Labor Issues,Silvertip,0010,OPEN EXCEPTIONS,"84,201.98",CBOH - Offsite Tech - SIEP Labor
+33,test,Great White,2025,0022,Labor Issues,GreatWhite,022,OPEN EXCEPTIONS,"322,630.60",COUA - Opex Matrix - Contractors Billed Staff Labor & Burden
+34,test,Silvertip,2023,0002,Labor Issues,Silvertip,0002,OPEN EXCEPTIONS,"18,390.60",COUA - Opex Matrix/Project - CBOH - Offsite Tech - Waldemar S Nelson
